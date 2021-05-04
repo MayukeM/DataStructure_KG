@@ -20,23 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a290eb4-2ee2-4552-8d01-3e0707a44bb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spider/images/稀疏图.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/稠密图.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/layer/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/layer/mobile/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/layer/mobile/need/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/layer/theme/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/layer/theme/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/layer/theme/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/layer/theme/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/layer/theme/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/myskin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/option.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/first.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/part/graph.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/json/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/spider/json/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/KGQA.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/KGQA.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/all_relation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/all_relation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -66,23 +60,24 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spider/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\学习\毕设-知识图谱\08.开源项目\MengHonglou\KGQA_HLM" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\templates" />
       <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\spider\images" />
       <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\static" />
       <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\static\js" />
       <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\KGQA_DataStructure_02" />
-      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\KGQA_DataStructure_02\templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\学习\毕设-知识图谱\08.开源项目\MengHonglou\KGQA_HLM" />
     </key>
   </component>
   <component name="RunManager" selected="Python.DataStructure_KG">
@@ -209,7 +204,8 @@
       <workItem from="1619838086041" duration="9888000" />
       <workItem from="1619870493481" duration="1457000" />
       <workItem from="1620008840086" duration="8630000" />
-      <workItem from="1620079861477" duration="10683000" />
+      <workItem from="1620079861477" duration="12345000" />
+      <workItem from="1620127786437" duration="7997000" />
     </task>
     <servers />
   </component>
@@ -219,11 +215,50 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="1">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -244,49 +279,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="111" key="#query_graph/0.0.1920.1040@0.0.1920.1040" timestamp="1619838619137" />
-    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1620089637694">
+    <state width="1493" height="129" key="GridCell.Tab.0.bottom" timestamp="1620136493889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620089637694" />
+    <state width="1493" height="129" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620136493889" />
     <state width="1877" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619869767279" />
     <state width="1235" height="183" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1619828255718" />
-    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1620089637694">
+    <state width="1493" height="129" key="GridCell.Tab.0.center" timestamp="1620136493889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620089637694" />
+    <state width="1493" height="129" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620136493889" />
     <state width="1877" height="187" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619869767278" />
     <state width="1235" height="183" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1619828255718" />
-    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1620089637694">
+    <state width="1493" height="129" key="GridCell.Tab.0.left" timestamp="1620136493889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620089637694" />
+    <state width="1493" height="129" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620136493889" />
     <state width="1877" height="187" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619869767278" />
     <state width="1235" height="183" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1619828255718" />
-    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1620089637694">
+    <state width="1493" height="129" key="GridCell.Tab.0.right" timestamp="1620136493889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620089637694" />
+    <state width="1493" height="129" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620136493889" />
     <state width="1877" height="187" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619869767278" />
     <state width="1235" height="183" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1619828255718" />
-    <state width="1877" height="211" key="GridCell.Tab.1.bottom" timestamp="1619866561133">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="156" key="GridCell.Tab.1.bottom" timestamp="1620131350035">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619757283594" />
+    <state width="1493" height="156" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620131350035" />
     <state width="1877" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619866561133" />
-    <state width="1877" height="211" key="GridCell.Tab.1.center" timestamp="1619866561133">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="156" key="GridCell.Tab.1.center" timestamp="1620131350035">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1619757283594" />
+    <state width="1493" height="156" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620131350035" />
     <state width="1877" height="211" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619866561133" />
-    <state width="1877" height="211" key="GridCell.Tab.1.left" timestamp="1619866561133">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="156" key="GridCell.Tab.1.left" timestamp="1620131350035">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1619757283594" />
+    <state width="1493" height="156" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620131350035" />
     <state width="1877" height="211" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619866561133" />
-    <state width="1877" height="211" key="GridCell.Tab.1.right" timestamp="1619866561133">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="156" key="GridCell.Tab.1.right" timestamp="1620131350035">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1619757283594" />
+    <state width="1493" height="156" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620131350035" />
     <state width="1877" height="211" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619866561133" />
     <state x="866" y="329" key="SettingsEditor" timestamp="1619868691628">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -309,11 +344,6 @@
           <line>3</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/neo_db/query_graph.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -325,6 +355,6 @@
     <SUITE FILE_PATH="coverage/KGQA_DataStructure$creat_graph.coverage" NAME="creat_graph Coverage Results" MODIFIED="1619502332405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
     <SUITE FILE_PATH="coverage/KGQA_DataStructure$query_graph.coverage" NAME="query_graph Coverage Results" MODIFIED="1619505241752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
     <SUITE FILE_PATH="coverage/KGQA_DataStructure_02$KGQA_DataStructure_02.coverage" NAME="KGQA_DataStructure_02 Coverage Results" MODIFIED="1620013095807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/DataStructure_KG$DataStructure_KG.coverage" NAME="DataStructure_KG Coverage Results" MODIFIED="1620089637681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$DataStructure_KG.coverage" NAME="DataStructure_KG Coverage Results" MODIFIED="1620136493878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

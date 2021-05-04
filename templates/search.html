@@ -77,7 +77,6 @@
         #search:focus {
             border: 1px solid #249e92;
         }
-
         #bound {
             display: none;
         }
@@ -106,7 +105,7 @@
                     <div class="col-lg-4">
                         <div class="input-group">
                             <input type="text" id="search" class="form-control input-lg" placeholder="请输入你要检索的知识点...">
-                            <span class="input-group-addon btn btn-mint" onclick="search()">搜索</span>
+                            <span class="input-group-addon btn btn-mint" id="c_search">搜索</span>
                         </div>
                     </div>
 
@@ -147,13 +146,13 @@
         <!--END CONTENT CONTAINER-->
     </div>
 
-<!--    弹出详细信息框-->
+    <!--    弹出详细信息框-->
     <div id="bound">
         <div class="col-lg-1"></div>
         <div class="col-lg-11">
             <div class="row" style="width:200px;height:200px;">
 
-                <img id="picture" style="display:none;width:200px;height:200px;" src="">
+                <img id="picture" style="display:none;height:200px;" src="">
             </div>
             <div class="row">
                 <div class="basic-info ">
@@ -184,7 +183,9 @@
 <!--===================================================-->
 <!-- END OF CONTAINER -->
 <script type="text/javascript" src="../static/layer/layer.js"></script>
+<script type="text/javascript" src="../static/js/option.js"></script>
 <script type="text/javascript" src="../static/js/search.js"></script>
+
 <script>
     $(document).keypress(function (e) {
         // 回车键事件
@@ -192,72 +193,13 @@
             search();
         }
     });
-
-    function search() {
-
-        // setChart();
-
-        $.getJSON('/search_name', {
-            name: $("#search").val(),
-
-        }, function (json) {
-
-            option.series[0].nodes = json.data.map(function (node, idx) {
-                node.id = idx;
-                return node;
-            });
-
-            option.series[0].links = json.links;
-
-            // 使用刚指定的配置项和数据显示图表
-            myChart.setOption(option, true);
-
-        });
-    }
-
+    $("#c_search").click(function () {
+        var name = $("#search").val();
+        search(name);
+    })
     $(".col-lg-4 a").click(function () {
-
-        // setChart();
-
-        $.getJSON('/search_name', {
-            name: $(this).attr("data"),
-
-        }, function (json) {
-
-            option.series[0].nodes = json.data.map(function (node, idx) {
-                node.id = idx;
-                return node;
-            });
-
-            option.series[0].links = json.links;
-
-            myChart.setOption(option, true);
-        })
-    });
-
-    myChart.on('click', function (params) {
-
-        var province = params.name;
-        $.getJSON('/get_profile', {
-            character_name: province,
-
-        }, function (json) {
-            $("#profile").html(json[0]);
-            $("#picture").css("display", "block");
-            $("#picture").attr("src", "data:image/jpg;base64," + json[1]);
-        });
-        layer.open({
-            title:province,
-            type: 1,
-            area:["400px","700px"],
-            closeBtn: 10, //显示关闭按钮
-            maxmin:true,
-            shadeClose: true,       // 点击遮罩是否关闭
-            shade:0.1,              // 遮罩透明度
-            skin: 'yourclass',
-            offset:"r",
-            content: $("#bound").html()
-        });
+        var name = $(this).attr("data")
+        search(name)
     });
 
 </script>

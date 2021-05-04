@@ -6,9 +6,14 @@ app = Flask(__name__)
 
 
 @app.route('/', methods=['GET', 'POST'])
+# @app.route('/index', methods=['GET', 'POST'])
+def first(name=None):
+    return render_template('first.html', name=name)
+
+
 @app.route('/index', methods=['GET', 'POST'])
-def index(name=None):
-    return render_template('index.html', name=name)
+def index():
+    return render_template('index.html')
 
 
 @app.route('/search.html', methods=['GET', 'POST'])
@@ -45,6 +50,11 @@ def search_name():
 @app.route('/all_relation.html', methods=['GET', 'POST'])
 def get_all_relation():
     return render_template('all_relation.html')
+
+
+@app.route('/graph.html', methods=['GET', 'POST'])
+def graph():
+    return render_template('part/graph.html')
 
 
 if __name__ == '__main__':
