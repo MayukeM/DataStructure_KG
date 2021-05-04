@@ -78,11 +78,14 @@
                     $.getJSON('../static/data.json', function (json) {
                         rela = json;
                     });
-                    all_nodes = rela.data.map(function (node, idx) {
+                        // setChart()
+                    option.series[0].symbolSize = 45;
+                    option.series[0].label["normal"]["textStyle"]["fontSize"] = 12;
+                    option.series[0].nodes = rela.data.map(function (node, idx) {
                         node.id = idx;
                         return node;
-                    }),
-                        setChart(45, 12, all_nodes, rela.links)
+                    });
+                    option.series[0].links = rela.links;
                     myChart.setOption(option, true);
                 </script>
 

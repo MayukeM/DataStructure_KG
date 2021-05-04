@@ -20,680 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a290eb4-2ee2-4552-8d01-3e0707a44bb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/KGQA_DataStructure_02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kg_data/detail.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kg_data/relation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/图.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/完全图.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/无向图.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/有向图.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/avatar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/column.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/comment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/css3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/email.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/var.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/demo_fontclass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/demo_symbol.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/demo_unicode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/kg_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/kg_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/kg_logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/kg_logo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/kg_logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/kg_logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/kg_logo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/l-line-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/l-line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/login/login_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/login/login_line.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/login/yzm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/module/dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/module/formate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/module/tool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/modules/laydate/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/modules/laydate/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/modules/layer/default/loading-1-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/css/modules/layer/default/loading-4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/dest/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/admin.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/avatar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/column.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/comment.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/css3.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/email.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/login.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/main.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/page.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/panel.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/reset.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/var.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/less/welcome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/chord.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/eventRiver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/force.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/gauge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/k.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/line.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/radar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/scatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/treemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/venn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/chart/wordCloud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/echarts-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/echarts/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/background/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/background/background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/background/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/background/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/background/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/charts/charts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/charts/charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/charts/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/help/help.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/help/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/help/help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/image/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/image/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/image/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/image/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/image/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/image/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/image/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/image/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/internal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/link/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/map/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/music/music.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/music/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/music/music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/preview/preview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/table/dragicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/table/edittable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/table/edittable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/table/edittable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/table/edittd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/table/edittip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/template/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/template/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/template/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/video/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/addimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/listbackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/en/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/php/Uploader.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/php/action_crawler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/php/action_list.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/php/action_upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/php/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/php/controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/css/ueditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/dialogbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/charts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/filescan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/loaderror.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/lock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/sortable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/videologo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/word.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/themes/iframe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/jquery-1.10.2.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/video-js/video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/video-js/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/ueditor.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/ueditor.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/ueditor.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/ueditor.parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/lib/ueditor/ueditor.parse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/index_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/index_bg01.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/mylogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/mylogo01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KGQA/ltp.py" beforeDir="false" afterPath="$PROJECT_DIR$/KGQA/ltp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neo_db/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/neo_db/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neo_db/creat_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/neo_db/creat_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neo_db/query_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/neo_db/query_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raw_data/relation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/raw_data/relation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/东平王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/丰儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/乌进孝.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/伴鹤.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/住儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/余信.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/佩凤.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/侍画.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/偕鸾.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/傻大姐.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/入画.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/兴儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/冯渊.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/冷子兴.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/净虚.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/刘姥姥.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/包勇.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/单聘仁.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/史湘云.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/司棋.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/吴新登.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/吴贵.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/周太监.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/周瑞.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/周瑞家的.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/喜儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/四儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/圆信.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/坠儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/夏秉忠.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/夏金桂.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/大色空.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/妙玉.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/娇杏.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/孙绍祖.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/宋嬷嬷.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/宝官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/宝珠.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/宝蟾.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/寿儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/封肃.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/小红.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/小舍儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/小蝉.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/小鹊.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/尤三姐.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/尤二姐.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/尤氏.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/尤老娘.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/山子野.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/巧姐.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/平儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/庆儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/张华.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/张妈妈.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/张金哥.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/彩云.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/彩儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/彩凤.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/彩屏.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/彩明.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/彩霞.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/彩鸾.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/扫红.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/抱琴.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/方椿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/昭儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/晴雯.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/智善.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/智能.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/智能儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/智通.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/李十儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/李嬷嬷.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/李纨.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/李贵.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/林之孝.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/林之孝家的.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/林如海.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/林红玉.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/林黛玉.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/柳五儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/柳湘莲.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/焦大.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/玉官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/玉柱儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/玉钏儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/王仁.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/王作梅.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/王善保.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/王善保家的.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/王夫人.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/王子腾.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/王柱儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/王熙凤.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/玻璃.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/珍珠.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/琥珀.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/琪官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/瑞珠.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/甄士隐.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/甄宝玉.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/甄应嘉.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/石呆子.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/碧痕.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/秋桐.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/秋纹.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/秦可卿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/秦邦业.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/秦钟.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/秦锺.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/程日兴.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/紫鹃.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/翡翠.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/艾官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/芳官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/茄官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/茗烟.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/药官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/莺儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/葵官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/蒋玉菡.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/蕊官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/薛姨妈.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/薛宝琴.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/薛宝钗.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/薛蝌.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/薛蟠.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/藕官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/袭人.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/裘世安.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/詹光.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/豆官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾代修.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾代儒.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾代化.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾代善.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾元春.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾兰.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾宝玉.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾巧姐.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾惜春.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾探春.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾政.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾敏.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾敬.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾母.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾源.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾演.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾环.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾珍.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾珠.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾琏.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾瑞.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾芸.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾芹.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾蓉.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾蔷.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾赦.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾迎春.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/贾雨村.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/赖大.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/赖嬷嬷.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/赖尚荣.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/赵姨娘.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/载权.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/邓好时.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/邢夫人.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/邢岫烟.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/金文翔.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/金钏.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/金钏儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/锄药.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/隆儿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/雪雁.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/香菱.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/马道婆.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/鸳鸯.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/麝月.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/龄官.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/稀疏图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/稠密图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider/json/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/spider/json/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/show_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/show_profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/nifty.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/nifty.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/KGQA.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/KGQA.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/all_relation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/all_relation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -727,24 +70,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spider/images" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\spider\images" />
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\static" />
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\static\js" />
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\KGQA_DataStructure_02" />
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\KGQA_DataStructure_02\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\学习\毕设-知识图谱\08.开源项目\MengHonglou\KGQA_HLM" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\KGQA_DataStructure_02" />
-      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\KGQA_DataStructure_02\templates" />
-      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\KGQA_DataStructure_02\static" />
-      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_cHL\KGQA_DataStructure\spider\images" />
-      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_cHL\KGQA_DataStructure\static\images" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.KGQA_DataStructure_02">
-    <configuration name="KGQA_DataStructure_02" type="PythonConfigurationType" factoryName="Python">
-      <module name="KGQA_HLM" />
+  <component name="RunManager" selected="Python.DataStructure_KG">
+    <configuration name="DataStructure_KG" type="PythonConfigurationType" factoryName="Python">
+      <module name="KGQA_DataStructure_02" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -832,7 +175,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.KGQA_DataStructure_02" />
+      <item itemvalue="Python.DataStructure_KG" />
       <item itemvalue="Python.ltp" />
       <item itemvalue="Python.creat_graph" />
       <item itemvalue="Python.query_graph" />
@@ -866,6 +209,7 @@
       <workItem from="1619838086041" duration="9888000" />
       <workItem from="1619870493481" duration="1457000" />
       <workItem from="1620008840086" duration="8630000" />
+      <workItem from="1620079861477" duration="10683000" />
     </task>
     <servers />
   </component>
@@ -888,10 +232,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619756487254">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620079912193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1619756487254" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1620079912193" />
     <state x="461" y="180" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619447815103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -900,28 +244,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="111" key="#query_graph/0.0.1920.1040@0.0.1920.1040" timestamp="1619838619137" />
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1620054324471">
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1620089637694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620054324471" />
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620089637694" />
     <state width="1877" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619869767279" />
     <state width="1235" height="183" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1619828255718" />
-    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1620054324471">
+    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1620089637694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620054324471" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620089637694" />
     <state width="1877" height="187" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619869767278" />
     <state width="1235" height="183" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1619828255718" />
-    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1620054324470">
+    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1620089637694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620054324470" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620089637694" />
     <state width="1877" height="187" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619869767278" />
     <state width="1235" height="183" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1619828255718" />
-    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1620054324471">
+    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1620089637694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620054324471" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620089637694" />
     <state width="1877" height="187" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619869767278" />
     <state width="1235" height="183" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1619828255718" />
     <state width="1877" height="211" key="GridCell.Tab.1.bottom" timestamp="1619866561133">
@@ -952,10 +296,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="468" y="146" width="600" height="532" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1619762432814" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1620053744792">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1620085856367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620053744792" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620085856367" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -981,5 +325,6 @@
     <SUITE FILE_PATH="coverage/KGQA_DataStructure$creat_graph.coverage" NAME="creat_graph Coverage Results" MODIFIED="1619502332405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
     <SUITE FILE_PATH="coverage/KGQA_DataStructure$query_graph.coverage" NAME="query_graph Coverage Results" MODIFIED="1619505241752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
     <SUITE FILE_PATH="coverage/KGQA_DataStructure_02$KGQA_DataStructure_02.coverage" NAME="KGQA_DataStructure_02 Coverage Results" MODIFIED="1620013095807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$DataStructure_KG.coverage" NAME="DataStructure_KG Coverage Results" MODIFIED="1620089637681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
