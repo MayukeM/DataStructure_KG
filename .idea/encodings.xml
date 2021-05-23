@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/kg_data/detail.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/kg_data/cate.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/kg_data/relation.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/raw_data/detail.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/raw_data/detail.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/raw_data/relation.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/test/relation.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/test/relation.csv" charset="GBK" />
   </component>
 </project>

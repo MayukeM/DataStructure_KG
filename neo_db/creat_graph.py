@@ -2,7 +2,7 @@ from py2neo import Graph, Node, Relationship
 from neo_db.config import graph
 
 graph.run("match (n) detach delete n")
-with open("../raw_data/relation.txt", encoding='utf-8') as f:
+with open("../raw_data/relation.csv", encoding='gbk') as f:
     for line in f.readlines():
         rela_array = line.strip("\n").split(",")
         print(rela_array)

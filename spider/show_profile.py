@@ -16,3 +16,12 @@ def get_profile(name):
         <dd class = \"basicInfo-item value\" >" + str(data[name][i]) + "</dd >"
         s += st
     return s
+
+
+def get_all_profile(name, cate):
+    s = ''
+    for i in data[name]:
+        st = "<dt class = \"basicInfo-item name\" >" + str(i) + " \
+            <dd class = \"basicInfo-item value\" >" + str(data[name][i]) + "</dd >"
+        s += st
+    return s

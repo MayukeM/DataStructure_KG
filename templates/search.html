@@ -77,6 +77,7 @@
         #search:focus {
             border: 1px solid #249e92;
         }
+
         #bound {
             display: none;
         }
@@ -96,7 +97,11 @@
             <!--Page content-->
             <!--===================================================-->
             <div id="page-content">
-                <h4 class="text-main pad-btm bord-btm">知识可视化</h4>
+                <h4 class="text-main pad-btm bord-btm">
+                    <!--                    知识可视化-->
+                    <button type="button" class="btn btn-info" onclick="saveAsImage()">导出为图片</button>
+                    <!--                    <input type="button" value="导出" onclick="saveAsImage()"/>-->
+                </h4>
                 <div class="row">
                     <div class="col-lg-6">
 
@@ -161,6 +166,7 @@
                     </dl>
                 </div>
             </div>
+
         </div>
     </div>
     <!-- FOOTER -->

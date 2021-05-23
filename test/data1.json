@@ -1,0 +1,176 @@
+{
+  "data": [
+    {
+      "name": "数据结构",
+      "category": 0,
+      "id": 0
+    },
+    {
+      "name": "逻辑结构",
+      "category": 1,
+      "id": 1
+    },
+    {
+      "name": "存储结构",
+      "category": 1
+    },
+    {
+      "name": "线性结构",
+      "category": 2
+    },
+    {
+      "name": "非线性结构",
+      "category": 2
+    },
+    {
+      "name": "顺序存储",
+      "category": 2
+    },
+    {
+      "name": "链式存储",
+      "category": 2
+    },
+    {
+      "name": "索引存储",
+      "category": 2
+    },
+    {
+      "name": "散列存储",
+      "category": 2
+    },
+    {
+      "name": "线性表",
+      "category": 3
+    },
+    {
+      "name": "串",
+      "category": 3
+    },
+    {
+      "name": "数组",
+      "category": 3
+    },
+    {
+      "name": "广义表",
+      "category": 3
+    },{
+      "name": "树",
+      "category": 3
+    },{
+      "name": "图",
+      "category": 3
+    },{
+      "name": "有向图",
+      "category": 4
+    },{
+      "name": "无向图",
+      "category": 4
+    },{
+      "name": "完全图",
+      "category": 4
+    },{
+      "name": "稀疏图",
+      "category": 4
+    },{
+      "name": "稠密图",
+      "category": 4
+    }
+
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": "包含"
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "value": "包含"
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "value": "包含"
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "value": "包含"
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "value": "包含"
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "value": "包含"
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "value": "包含"
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "value": "包含"
+    },
+    {
+      "source": 3,
+      "target": 9,
+      "value": "包含"
+    },
+    {
+      "source": 3,
+      "target": 10,
+      "value": "包含"
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "value": "包含"
+    },
+    {
+      "source": 3,
+      "target": 12,
+      "value": "包含"
+    },
+    {
+      "source": 4,
+      "target": 13,
+      "value": "包含"
+    },
+    {
+      "source": 4,
+      "target": 14,
+      "value": "包含"
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "value": "术语"
+    },
+    {
+      "source": 14,
+      "target": 16,
+      "value": "术语"
+    },
+    {
+      "source": 14,
+      "target": 17,
+      "value": "术语"
+    },
+    {
+      "source": 14,
+      "target": 18,
+      "value": "术语"
+    },
+    {
+      "source": 14,
+      "target": 19,
+      "value": "测试"
+    }
+  ]}

@@ -54,14 +54,51 @@
     <!--Demo script [ DEMONSTRATION ]-->
     <script src="../static/js/nifty-demo.min.js"></script>
 
-
+    <style type="text/css">
+        #bound {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
+<!--    弹出详细信息框-->
+<div id="bound">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-11">
+        <div class="row" style="width:200px;height:200px;">
+
+            <img id="picture" style="display:none;height:200px;" src="">
+        </div>
+        <div class="row">
+            <div class="basic-info ">
+                <dl class="basicInfo-block basicInfo-left" id="profile">
+
+                </dl>
+            </div>
+        </div>
+        <h3>实体编辑</h3>
+        <div class="form-group">
+            <label for="firstname" class="col-sm-2 control-label">实体</label>
+            <div class="col-sm-10">
+                <input type="text" value="" class="form-control" id="firstname">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="lastname" class="col-sm-2 control-label">类别</label>
+            <div class="col-sm-10">
+                <input type="text" value="" class="form-control" id="lastname">
+            </div>
+            <!--            <a href="https://visualgo.net/en/sorting">点击</a>-->
+        </div>
+        <button class="btn btn-default fxh" id="change_Node">确认修改</button>
+
+    </div>
+</div>
 
 <div id="container" class="effect aside-float aside-bright mainnav-sm">
 
-
+    <!--<button class="btn btn-default fxh" id="change_Node">确认修改</button>-->
     <!--CONTENT CONTAINER-->
     <!--===================================================-->
     <div id="content-container">
@@ -72,13 +109,15 @@
 
             <div class="row" style="height: 800px;" id="guanxi">
 
+                <!--                <script type="text/javascript" src="../static/js/option.js"></script>-->
+                <script type="text/javascript" src="../static/layer/layer.js"></script>
                 <script type="text/javascript" src="../static/js/option.js"></script>
+                <!--                <script type="text/javascript" src="../static/js/search.js"></script>-->
                 <script>
                     var rela = {"data": [], "links": []};
                     $.getJSON('../static/data.json', function (json) {
                         rela = json;
                     });
-                        // setChart()
                     option.series[0].symbolSize = 45;
                     option.series[0].label["normal"]["textStyle"]["fontSize"] = 12;
                     option.series[0].nodes = rela.data.map(function (node, idx) {
@@ -87,6 +126,80 @@
                     });
                     option.series[0].links = rela.links;
                     myChart.setOption(option, true);
+
+
+                    myChart.on('click', function (params) {
+                        var cates = {0: "一级概念", 1: "二级概念", 2: "三级概念", 3: "四级概念", 4: "五级概念"};
+                        let province = params.name;
+                        let cate = params.data.category;
+                        $.getJSON('/get_all_profile', {
+                            character_name: province,
+                            cate: cate,
+                        }, function (json) {
+                            $("#profile").html(json[0]);
+                            $("#picture").css("display", "block");
+                            $("#picture").attr("src", "data:image/jpg;base64," + json[1]);
+                            $("#firstname").attr("value", province)
+                            $("#lastname").attr("value", cates[cate])
+                        });
+                        layer.config({
+                            extend: '../css/style.css',         //加载您的扩展样式//默认皮肤配置文件是放在css/modal/layer/myskin/style.css
+                            skin: 'layer-ext-yourskin'          //一旦设定，所有layer弹层风格都采用此主题。
+                        });
+                        layer.open({
+                            title: province,
+                            type: 1,
+                            area: ["400px", "700px"],
+                            closeBtn: 10,               //显示关闭按钮
+                            maxmin: true,
+                            shadeClose: true,           // 点击遮罩是否关闭
+                            shade: 0.1,                 // 遮罩透明度
+                            skin: 'layer-ext-moon',
+                            offset: "r",                //从右边弹出
+                            content: $("#bound").html()
+                        });
+                    });
+
+                    let node = $("#firstname").val();
+                    let cate = $("#lastname").val();
+
+                    $(document).on("blur", "#firstname", function () {
+                        node = $(this).val();
+
+                    })
+                    $(document).on("blur", "#lastname", function () {
+                        cate = $(this).val();
+                        node = $("#firstname").val();
+                    })
+                    $("body").on("click", ".fxh", function () {
+                        console.log()
+                        change_Node(node, cate);
+                    })
+
+                    function change_Node(node, cate) {
+                        console.log("i come " + node + cate)
+                        $.getJSON('/change_node', {
+                            node: node,
+                            cate: cate,
+
+                        }, function (json) {
+
+                            option.series[0].nodes = json.data.map(function (node, idx) {
+                                node.id = idx;
+                                return node;
+                            });
+
+                            option.series[0].links = json.links;
+
+                            // 使用刚指定的配置项和数据显示图表
+                            myChart.setOption(option, true);
+
+                        });
+                    }
+                </script>
+
+                <script type="text/javascript">
+
                 </script>
 
             </div>
