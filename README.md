@@ -39,7 +39,8 @@
     - get_json_data() 将raw_data/relation.csv的数据转换成data link的json格式保存到（static/data.json)以便前端展示
 2. 执行creat_graph.py创建图数据库,数据来自raw_data/relation.csv
 4. 执行get_ds.py爬虫得到百度百科词条和图片（spider/json/data.json)(spider/images)
-5. 执行get_dict.py得到自定义词典，在进行分词的时候，自定义词典里的词不会被分开 
+5. 执行get_dict.py得到自定义词典，在进行分词的时候，自定义词典里的词不会被分开
+6. creat_graph.py 新增 添加数据属性到图数据库
 > 上面步骤只需运行一次
 
 运行app.py或整个项目，注意清除浏览器缓存，图谱显示才能更新
