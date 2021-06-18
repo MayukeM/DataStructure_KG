@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>数据管理</title>
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../static/css/bootstrap-table.min.css" rel="stylesheet">
+    <script src="../../static/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+    <script src="../../static/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../static/js/bootstrap-table.min.js" type="text/javascript"></script>
+    <script src="../../static/js/bootstrap-table-zh-CN.js" type="text/javascript"></script>
+
+    <!--toastr弹框-->
+    <link href="../../static/css/toastr.min.css" rel="stylesheet">
+    <script src="../../static/js/toastr.min.js" type="text/javascript"></script>
+
+    <style>
+        #top {
+            position: absolute;
+            margin-top: 10px
+        }
+    </style>
+</head>
+<body>
+
+<!--推荐用这种方式，比较灵活-->
+<form style="width: 80%;margin: 0 auto">
+
+    <div id="top">
+        <div class="pull-left search">
+            <input id="search-keyword" class="form-control" placeholder="请输入项目名查询">
+        </div>
+        <div class="columns columns-left btn-group pull-left">
+            <button id="search-button" type="button" class="btn btn-primary">查询</button>
+        </div>
+
+        <!-- 按钮触发模态框 -->
+        <div class="columns columns-right btn-group pull-right">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">新增项目</button>
+        </div>
+    </div>
+    <table id="table"></table>
+</form>
+<!--    自定义搜索条件区域  -->
+<div class="fixed-table-toolbar">
+
+    <!-- 新增模态框（Modal） -->
+    <form action="/add_item" method="post" class="form-horizontal" role="form" id="add_item_from">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">
+                            新增项目
+                        </h4>
+                    </div>
+                    {# 模态框body #}
+                    <div class="modal-body" style="height: 100%;">
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-3 control-label">实体1</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="e1" id="e1"
+                                       placeholder="请输入实体1名称">
+                                </input>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-3 control-label">实体2</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="e2" id="e2"
+                                       placeholder="请输入实体2名称">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-3 control-label">关系</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="rel" id="rel"
+                                       placeholder="请输入关系名称">
+                                </input>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-3 control-label">实体1类别</label>
+                            <div class="col-sm-7">
+                                <select data-placeholder="选择类别..." class="form-control" name="c1"
+                                        id="c1">
+                                    <option value="">请选择实体1类别</option>
+                                    <option value="一级概念" hassubinfo="true">一级概念</option>
+                                    <option value="二级概念" hassubinfo="true">二级概念</option>
+                                    <option value="三级概念" hassubinfo="true">三级概念</option>
+                                    <option value="四级概念" hassubinfo="true">四级概念</option>
+                                    <option value="五级概念" hassubinfo="true">五级概念</option>
+                                    <option value="六级概念" hassubinfo="true">六级概念</option>
+                                    <option value="函数" hassubinfo="true">函数</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-3 control-label">实体2类别</label>
+                            <div class="col-sm-7">
+                                <select data-placeholder="选择类别..." class="form-control" name="c2"
+                                        id="c2">
+                                    <option value="">请选择实体2类别</option>
+                                    <option value="一级概念" hassubinfo="true">一级概念</option>
+                                    <option value="二级概念" hassubinfo="true">二级概念</option>
+                                    <option value="三级概念" hassubinfo="true">三级概念</option>
+                                    <option value="四级概念" hassubinfo="true">四级概念</option>
+                                    <option value="五级概念" hassubinfo="true">五级概念</option>
+                                    <option value="六级概念" hassubinfo="true">六级概念</option>
+                                    <option value="函数" hassubinfo="true">函数</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    {# 模态框底部#}
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <input type="submit" class="btn btn-primary" value="提交"/>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+    </form>
+
+    <!-- 修改数据模态框（Modal） -->
+    <form action="/update_item" method="post" class="form-horizontal" role="form">
+        <div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="updateModalLabel">
+                            修改项目
+                        </h4>
+                    </div>
+                    <!--                        模态框body -->
+                    <div class="modal-body" style="height: 100%;">
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-3 control-label">编号</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="cate_rel_id" id="cate_rel_id"
+                                       readonly="readonly">
+                                </input>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-3 control-label">实体1</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="update_e1" id="update_e1"
+                                       placeholder="请输入实体1名称">
+                                </input>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-3 control-label">实体2</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="update_e2" id="update_e2"
+                                       placeholder="请输入实体2名称">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-3 control-label">关系</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="update_rel" id="update_rel"
+                                       placeholder="请输入关系名称">
+                                </input>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-3 control-label">实体1类别</label>
+                            <div class="col-sm-7">
+                                <select data-placeholder="选择类别..." class="form-control" name="update_c1"
+                                        id="update_c1">
+                                    <option value="">请选择实体1类别</option>
+                                    <option value="一级概念" hassubinfo="true">一级概念</option>
+                                    <option value="二级概念" hassubinfo="true">二级概念</option>
+                                    <option value="三级概念" hassubinfo="true">三级概念</option>
+                                    <option value="四级概念" hassubinfo="true">四级概念</option>
+                                    <option value="五级概念" hassubinfo="true">五级概念</option>
+                                    <option value="六级概念" hassubinfo="true">六级概念</option>
+                                    <option value="函数" hassubinfo="true">函数</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-3 control-label">实体2类别</label>
+                            <div class="col-sm-7">
+                                <select data-placeholder="选择类别..." class="form-control" name="update_c2"
+                                        id="update_c2">
+                                    <option value="">请选择实体2类别</option>
+                                    <option value="一级概念" hassubinfo="true">一级概念</option>
+                                    <option value="二级概念" hassubinfo="true">二级概念</option>
+                                    <option value="三级概念" hassubinfo="true">三级概念</option>
+                                    <option value="四级概念" hassubinfo="true">四级概念</option>
+                                    <option value="五级概念" hassubinfo="true">五级概念</option>
+                                    <option value="六级概念" hassubinfo="true">六级概念</option>
+                                    <option value="函数" hassubinfo="true">函数</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+                    {# 模态框底部#}
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <input type="submit" class="btn btn-primary" id="update" value="提交"/>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+        {##}
+    </form>
+
+    <!--    确认删除框-->
+    <div class="modal fade" id="deleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="exampleModalLabel">确认框</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="message-text" class="control-label">确定要删除吗？</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                    <button type="button" class="btn btn-primary" id='delete_submit'>确认</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<!--1.先定义一个空表-->
+<!--2.用js初始化表，并填充数据-->
+<script type="text/javascript">
+    $(function () {
+
+        // $('#table').bootstrapTable('destroy');
+        $('#table').bootstrapTable({
+            url: '/cate_rel',  // 请求数据源的路由
+            dataType: "json",
+            pagination: true, //前端处理分页
+            singleSelect: false,//是否只能单选
+            sortable: true,                     //是否启用排序
+            search: false, //显示搜索框，此搜索是客户端搜索，不会进服务端，所以，个人感觉意义不大
+            toolbar: '#toolbar', //工具按钮用哪个容器
+            striped: true, //是否显示行间隔色
+            cache: false, //是否使用缓存，默认为true，所以一般情况下需要设置一下这个属性（*）
+            pageNumber: 1, //初始化加载第10页，默认第一页
+            pageSize: 10, //每页的记录行数（*）
+            pageList: [10, 20, 50, 100], //可供选择的每页的行数（*）
+            strictSearch: false,//设置为 true启用 全匹配搜索，false为模糊搜索
+            showColumns: true, //显示内容列下拉框
+            showRefresh: true, //显示刷新按钮
+            minimumCountColumns: 2, //当列数小于此值时，将隐藏内容列下拉框
+            clickToSelect: true, //设置true， 将在点击某行时，自动勾选rediobox 和 checkbox
+            // height        :            500, //表格高度，如果没有设置height属性，表格自动根据记录条数决定表格高度#}
+            uniqueId: "id", //每一行的唯一标识，一般为主键列
+            showToggle: true, //是否显示详细视图和列表视图的切换按钮
+            cardView: false, //是否显示详细视图
+            detailView: false, //是否显示父子表，设置为 true 可以显示详细页面模式,在每行最前边显示+号
+            // sidePagination: "server", //分页方式：client客户端分页，server服务端分页（*）
+            // queryParamsType: '',//设置请求参数格式
+
+            //得到查询的参数
+            queryParams: function (params) {
+                //这里的键的名字和控制器的变量名必须一直，这边改动，控制器也需要改成一样的
+                var query_params = {
+                    rows: params.limit,                         //页面大小
+                    page: (params.offset / params.limit) + 1,   //页码
+                    sort: params.sort,      //排序列名
+                    sortOrder: params.order, //排位命令（desc，asc）
+
+                    //查询框中的参数传递给后台
+                    search_kw: $('#search-keyword').val(), // 请求时向服务端传递的参数
+                };
+                return query_params;
+            },
+            columns: [{  //定义表头,这个表头必须定义,下边field后边跟的字段名字必须与后端传递的字段名字相同.如:id、name、price　　　　　　　　　　　　　　　　跟后端的字段名id  name price是完全一样的.
+                field: 'cate_rel_id',
+                title: '序号',
+                align: 'center',  //对齐方式，居中
+                // width: '200px'  // 可以写各种样式
+            }, {
+                field: 'e1',
+                title: '实体1',
+                align: 'center'
+            }, {
+                field: 'e2',
+                title: '实体2',
+                align: 'center',
+            }, {
+                field: 'rel',
+                title: '关系',
+                align: 'center',
+            }, {
+                field: 'c1',
+                title: '实体1类别',
+                align: 'center',
+            }, {
+                field: 'c2',
+                title: '实体2类别',
+                align: 'center',
+            },
+                {
+                    title: '操作',
+                    field: 'id',
+                    align: 'center',
+                    formatter: actionFormatter
+                }
+            ],
+
+        });
+
+        function actionFormatter(value, row, index) {
+            var id = index;
+            var data = JSON.stringify(row);
+            var result = "";
+            result += "<a href='javascript:;' class='btn btn-xs green' onclick=\"EditViewById('" + id + "', view='view')\" title='查看'><span class='glyphicon glyphicon-search'></span></a>";
+            result += "<a href='javascript:;' class='btn btn-xs blue' onclick=\"EditViewById('" + row + "','" + id + "')\" title='编辑'><span class='glyphicon glyphicon-pencil'></span></a>";
+            result += "<a href='javascript:;' class='btn btn-xs red' onclick=\"DeleteByIds('" + id + "')\" title='删除'><span class='glyphicon glyphicon-remove'></span></a>";
+            return result;
+        }
+
+        //getData方法获取全部页面数据后，将data转为json对象，使用index当前行号作为下标获取对应数据
+        window.EditViewById = function (row, index) {
+            var data = JSON.stringify($("#table").bootstrapTable('getData')); //获取全部数据
+            var data_json = JSON.parse(data); //data_json和data_json2一样都是json对象
+            console.log(data_json);
+            //由于data2已经是对象了，alert不能显示对象只能显示为[object Object],需要控制台打印
+            //根据index找到对应行数据，填充数据到修改模态框
+            $("#cate_rel_id").val(data_json[index].cate_rel_id)
+            $("#update_e1").val(data_json[index].e1);
+            $("#update_e2").val(data_json[index].e2);
+            $("#update_rel").val(data_json[index].rel);
+            $("#update_c1").val(data_json[index].c1);
+            $("#update_c2").val(data_json[index].c2);
+            //弹出修改模态框，非新增模态框
+            $('#updateModal').modal('show')
+        }
+        window.DeleteByIds = function (id) {
+            var data = JSON.stringify($("#table").bootstrapTable('getData')); //获取全部数据
+            var data_json = JSON.parse(data); //data_json和data_json2一样都是json对象
+            var id = data_json[id].cate_rel_id
+
+            $('#deleModal').modal('show')
+            $("#delete_submit").click(function () {
+                $('#deleModal').modal('hide')
+                $.getJSON("/delete_item", {
+                    id: id
+                })
+                $('#table').bootstrapTable(('refresh'));
+            })
+        }
+
+        // 搜索查询按钮触发事件
+        $(function () {
+            $("#search-button").click(function () {
+                $('#table').bootstrapTable(('refresh')); // 很重要的一步，刷新url！
+                $('#search-keyword').val('')
+            })
+        })
+
+    });
+
+
+</script>
+
+</html>

@@ -27,7 +27,6 @@ def get_json(character_arr):
         url = quote(url, safe=string.printable)
         req = request.Request(url, headers=headers)
         response = request.urlopen(req, timeout=20)
-
         try:
             html = response.read().decode('utf-8')
             soup = BeautifulSoup(html, 'html.parser', )
@@ -53,3 +52,5 @@ if __name__ == "__main__":
     character_arr = get_character()
     os.chdir(os.path.join(os.getcwd(), '../spider/images'))  # os.chdir() 方法用于改变当前工作目录到指定的路径。
     get_json(character_arr)
+
+

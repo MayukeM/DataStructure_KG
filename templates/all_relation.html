@@ -8,47 +8,39 @@
 
     <!--Bootstrap Stylesheet [ REQUIRED ]-->
     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="shortcut icon" href="../../static/images/mylogo.png">
+    <link href="../static/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="../static/css/bootstrap-table.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/images/mylogo.png">
     <!--Nifty Stylesheet [ REQUIRED ]-->
     <link href="../static/css/nifty.min.css" rel="stylesheet">
 
-
     <!--Nifty Premium Icon [ DEMONSTRATION ]-->
     <link href="../static/css/nifty-demo-icons.min.css" rel="stylesheet">
-
 
     <!--Demo [ DEMONSTRATION ]-->
     <link href="../static/css/nifty-demo-icons.min.css" rel="stylesheet">
     <link href="../static/css/nifty-demo.min.css" rel="stylesheet">
     <link href="../static/css/font-awesome.min.css" rel="stylesheet">
 
-
     <!--JAVASCRIPT-->
     <!--=================================================-->
 
     <!--Pace - Page Load Progress Par [OPTIONAL]-->
     <link href="../static/css/pace.min.css" rel="stylesheet">
-
     <script src="../static/js/pace.min.js"></script>
-
 
     <!--jQuery [ REQUIRED ]-->
     <script src="../static/js/jquery-2.2.4.min.js"></script>
 
-
     <!--BootstrapJS [ RECOMMENDED ]-->
     <script src="../static/js/bootstrap.min.js"></script>
-
+    <script src="../static/js/bootstrap-table.min.js" type="text/javascript"></script>
+    <script src="../static/js/bootstrap-table-zh-CN.js" type="text/javascript"></script>
 
     <!--NiftyJS [ RECOMMENDED ]-->
     <script src="../static/js/nifty.min.js"></script>
     <script src="../static/js/icons.js"></script>
-
-
     <script src="../static/js/echarts.min.js"></script>
-
-
     <!--=================================================-->
 
     <!--Demo script [ DEMONSTRATION ]-->
@@ -58,16 +50,260 @@
         #bound {
             display: none;
         }
+
+        #top {
+            position: absolute;
+            margin-left: 8px;
+            margin-top: 5px;
+            z-index: 10;
+        }
+
+        #deleModal {
+            z-index: 100000000;
+        }
+
+        /*#refresh {*/
+        /*    position: absolute;*/
+        /*    margin-left: 8px;*/
+        /*    margin-top: 5px;*/
+        /*    z-index: 20;*/
+        /*    !*margin-top: 5px;*!*/
+        /*    !*margin-left: 50px;*!*/
+        /*}*/
+
     </style>
 </head>
 
 <body>
+<!--推荐用这种方式，比较灵活-->
+<form style="width: 100%;margin: 0 auto">
+
+    <div id="top">
+        <div class="pull-left search">
+            <input id="search-keyword" class="form-control" placeholder="请输入实体名查询">
+        </div>
+        <div class="columns columns-left btn-group pull-left">
+            <button id="search-button" type="button" class="btn btn-primary">查询</button>
+        </div>
+
+        <!-- 按钮触发模态框 -->
+        <div class="columns columns-right btn-group pull-right">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">新增实体</button>
+            <button type="button" class="btn btn-success" id="refresh">刷新图谱</button>
+        </div>
+    </div>
+    <div class="row" style="height: 800px;" id="guanxi"></div>
+</form>
+
+<!--    自定义搜索条件区域  -->
+<div class="fixed-table-toolbar">
+
+    <!-- 新增模态框（Modal） -->
+    <form action="/add_Node" method="post" class="form-horizontal" role="form" id="add_item_from">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">
+                            新增项目
+                        </h4>
+                    </div>
+                    {# 模态框body #}
+                    <div class="modal-body" style="height: 100%;">
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-3 control-label">实体1</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="e1" id="e1"
+                                       placeholder="请输入实体1名称">
+                                </input>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-3 control-label">实体2</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="e2" id="e2"
+                                       placeholder="请输入实体2名称">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-3 control-label">关系</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="rel" id="rel"
+                                       placeholder="请输入关系名称">
+                                </input>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-3 control-label">实体1类别</label>
+                            <div class="col-sm-7">
+                                <select data-placeholder="选择类别..." class="form-control" name="c1"
+                                        id="c1">
+                                    <option value="">请选择实体1类别</option>
+                                    <option value="一级概念" hassubinfo="true">一级概念</option>
+                                    <option value="二级概念" hassubinfo="true">二级概念</option>
+                                    <option value="三级概念" hassubinfo="true">三级概念</option>
+                                    <option value="四级概念" hassubinfo="true">四级概念</option>
+                                    <option value="五级概念" hassubinfo="true">五级概念</option>
+                                    <option value="六级概念" hassubinfo="true">六级概念</option>
+                                    <option value="函数" hassubinfo="true">函数</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-3 control-label">实体2类别</label>
+                            <div class="col-sm-7">
+                                <select data-placeholder="选择类别..." class="form-control" name="c2"
+                                        id="c2">
+                                    <option value="">请选择实体2类别</option>
+                                    <option value="一级概念" hassubinfo="true">一级概念</option>
+                                    <option value="二级概念" hassubinfo="true">二级概念</option>
+                                    <option value="三级概念" hassubinfo="true">三级概念</option>
+                                    <option value="四级概念" hassubinfo="true">四级概念</option>
+                                    <option value="五级概念" hassubinfo="true">五级概念</option>
+                                    <option value="六级概念" hassubinfo="true">六级概念</option>
+                                    <option value="函数" hassubinfo="true">函数</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    {# 模态框底部#}
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <input type="submit" class="btn btn-primary" id="add_submit" value="提交"/>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+    </form>
+
+    <!-- 修改数据模态框（Modal） -->
+    <form action="/update_Node" method="post" class="form-horizontal" role="form">
+        <div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="updateModalLabel">
+                            修改项目
+                        </h4>
+                    </div>
+                    <!--                        模态框body -->
+                    <div class="modal-body" style="height: 100%;">
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-3 control-label">编号</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="cate_rel_id" id="cate_rel_id"
+                                       readonly="readonly">
+                                </input>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-3 control-label">实体1</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="update_e1" id="update_e1"
+                                       placeholder="请输入实体1名称">
+                                </input>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-3 control-label">实体2</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="update_e2" id="update_e2"
+                                       placeholder="请输入实体2名称">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-3 control-label">关系</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" name="update_rel" id="update_rel"
+                                       placeholder="请输入关系名称">
+                                </input>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-3 control-label">实体1类别</label>
+                            <div class="col-sm-7">
+                                <select data-placeholder="选择类别..." class="form-control" name="update_c1"
+                                        id="update_c1">
+                                    <option value="">请选择实体1类别</option>
+                                    <option value="一级概念" hassubinfo="true">一级概念</option>
+                                    <option value="二级概念" hassubinfo="true">二级概念</option>
+                                    <option value="三级概念" hassubinfo="true">三级概念</option>
+                                    <option value="四级概念" hassubinfo="true">四级概念</option>
+                                    <option value="五级概念" hassubinfo="true">五级概念</option>
+                                    <option value="六级概念" hassubinfo="true">六级概念</option>
+                                    <option value="函数" hassubinfo="true">函数</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-3 control-label">实体2类别</label>
+                            <div class="col-sm-7">
+                                <select data-placeholder="选择类别..." class="form-control" name="update_c2"
+                                        id="update_c2">
+                                    <option value="">请选择实体2类别</option>
+                                    <option value="一级概念" hassubinfo="true">一级概念</option>
+                                    <option value="二级概念" hassubinfo="true">二级概念</option>
+                                    <option value="三级概念" hassubinfo="true">三级概念</option>
+                                    <option value="四级概念" hassubinfo="true">四级概念</option>
+                                    <option value="五级概念" hassubinfo="true">五级概念</option>
+                                    <option value="六级概念" hassubinfo="true">六级概念</option>
+                                    <option value="函数" hassubinfo="true">函数</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+                    {# 模态框底部#}
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <input type="submit" class="btn btn-primary" id="update" value="提交"/>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+        {##}
+    </form>
+
+    <!--    确认删除框-->
+    <div class="modal fade" id="deleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="exampleModalLabel">确认框</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="message-text" class="control-label">确定要删除吗？</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                    <button type="button" class="btn btn-primary" id='delete_submit'>确认</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
 <!--    弹出详细信息框-->
 <div id="bound">
     <div class="col-lg-1"></div>
     <div class="col-lg-11">
         <div class="row" style="width:200px;height:200px;">
-
             <img id="picture" style="display:none;height:200px;" src="">
         </div>
         <div class="row">
@@ -77,21 +313,24 @@
                 </dl>
             </div>
         </div>
-        <h3>实体编辑</h3>
-        <div class="form-group">
-            <label for="firstname" class="col-sm-2 control-label">实体</label>
-            <div class="col-sm-10">
-                <input type="text" value="" class="form-control" id="firstname">
+        <div style="display: none">
+            <h3>实体编辑</h3>
+            <div class="form-group">
+                <label for="firstname" class="col-sm-2 control-label">实体</label>
+                <div class="col-sm-10">
+                    <input type="text" value="" class="form-control" id="firstname">
+                </div>
             </div>
-        </div>
-        <div class="form-group">
-            <label for="lastname" class="col-sm-2 control-label">类别</label>
-            <div class="col-sm-10">
-                <input type="text" value="" class="form-control" id="lastname">
+            <div class="form-group">
+                <label for="lastname" class="col-sm-2 control-label">类别</label>
+                <div class="col-sm-10">
+                    <input type="text" value="" class="form-control" id="lastname">
+                </div>
+                <!--            <a href="https://visualgo.net/en/sorting">点击</a>-->
             </div>
-            <!--            <a href="https://visualgo.net/en/sorting">点击</a>-->
         </div>
         <button class="btn btn-default fxh" id="change_Node">确认修改</button>
+        <button class="btn btn-default" onclick="delete_Node()">删除实体</button>
 
     </div>
 </div>
@@ -107,103 +346,7 @@
         <!--===================================================-->
         <div id="page-content">
 
-            <div class="row" style="height: 800px;" id="guanxi">
-
-                <!--                <script type="text/javascript" src="../static/js/option.js"></script>-->
-                <script type="text/javascript" src="../static/layer/layer.js"></script>
-                <script type="text/javascript" src="../static/js/option.js"></script>
-                <!--                <script type="text/javascript" src="../static/js/search.js"></script>-->
-                <script>
-                    var rela = {"data": [], "links": []};
-                    $.getJSON('../static/data.json', function (json) {
-                        rela = json;
-                    });
-                    option.series[0].symbolSize = 45;
-                    option.series[0].label["normal"]["textStyle"]["fontSize"] = 12;
-                    option.series[0].nodes = rela.data.map(function (node, idx) {
-                        node.id = idx;
-                        return node;
-                    });
-                    option.series[0].links = rela.links;
-                    myChart.setOption(option, true);
-
-
-                    myChart.on('click', function (params) {
-                        var cates = {0: "一级概念", 1: "二级概念", 2: "三级概念", 3: "四级概念", 4: "五级概念"};
-                        let province = params.name;
-                        let cate = params.data.category;
-                        $.getJSON('/get_all_profile', {
-                            character_name: province,
-                            cate: cate,
-                        }, function (json) {
-                            $("#profile").html(json[0]);
-                            $("#picture").css("display", "block");
-                            $("#picture").attr("src", "data:image/jpg;base64," + json[1]);
-                            $("#firstname").attr("value", province)
-                            $("#lastname").attr("value", cates[cate])
-                        });
-                        layer.config({
-                            extend: '../css/style.css',         //加载您的扩展样式//默认皮肤配置文件是放在css/modal/layer/myskin/style.css
-                            skin: 'layer-ext-yourskin'          //一旦设定，所有layer弹层风格都采用此主题。
-                        });
-                        layer.open({
-                            title: province,
-                            type: 1,
-                            area: ["400px", "700px"],
-                            closeBtn: 10,               //显示关闭按钮
-                            maxmin: true,
-                            shadeClose: true,           // 点击遮罩是否关闭
-                            shade: 0.1,                 // 遮罩透明度
-                            skin: 'layer-ext-moon',
-                            offset: "r",                //从右边弹出
-                            content: $("#bound").html()
-                        });
-                    });
-
-                    let node = $("#firstname").val();
-                    let cate = $("#lastname").val();
-
-                    $(document).on("blur", "#firstname", function () {
-                        node = $(this).val();
-
-                    })
-                    $(document).on("blur", "#lastname", function () {
-                        cate = $(this).val();
-                        node = $("#firstname").val();
-                    })
-                    $("body").on("click", ".fxh", function () {
-                        console.log()
-                        change_Node(node, cate);
-                    })
-
-                    function change_Node(node, cate) {
-                        console.log("i come " + node + cate)
-                        $.getJSON('/change_node', {
-                            node: node,
-                            cate: cate,
-
-                        }, function (json) {
-
-                            option.series[0].nodes = json.data.map(function (node, idx) {
-                                node.id = idx;
-                                return node;
-                            });
-
-                            option.series[0].links = json.links;
-
-                            // 使用刚指定的配置项和数据显示图表
-                            myChart.setOption(option, true);
-
-                        });
-                    }
-                </script>
-
-                <script type="text/javascript">
-
-                </script>
-
-            </div>
-
+            <!--            {{message}}-->
         </div>
         <!--===================================================-->
         <!--End page content-->
@@ -215,23 +358,164 @@
 </div>
 <!-- FOOTER -->
 <!--===================================================-->
-<footer id="footer">
+<!--<footer id="footer">-->
 
-    <p class="pad-lft">Copyright&#0169; 2021 马宇科 &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All Rights Reserved </p>
+<!--    <p class="pad-lft">Copyright&#0169; 2021 马宇科 &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All Rights Reserved </p>-->
 
-</footer>
+<!--</footer>-->
 <!--===================================================-->
 <!-- END FOOTER -->
 
 <!-- SCROLL PAGE BUTTON -->
 <!--===================================================-->
-<button class="scroll-top btn">
-    <i class="pci-chevron chevron-up"></i>
-</button>
+<!--<button class="scroll-top btn">-->
+<!--    <i class="pci-chevron chevron-up"></i>-->
+<!--</button>-->
 <!--===================================================-->
 </div>
 <!--===================================================-->
 <!-- END OF CONTAINER -->
 
 </body>
+<script type="text/javascript" src="../static/layer/layer.js"></script>
+<script type="text/javascript" src="../static/js/option.js"></script>
+<script>
+    refresh()
+
+    function refresh() {
+        var rela = {"data": [], "links": []};
+        $.getJSON('/all_node', function (json) {
+            rela = json;
+        });
+        // $.getJSON('../static/data.json', function (json) {
+        //     rela = json;
+        // });
+        // option.series[0].symbolSize = 45;
+        // option.series[0].label["normal"]["textStyle"]["fontSize"] = 12;
+        // option.force.layoutAnimation = false;
+        option.series[0].nodes = rela.data.map(function (node, idx) {
+            node.id = idx;
+            return node;
+        });
+        option.series[0].links = rela.links;
+        myChart.setOption(option, true);
+    }
+
+
+    myChart.on('click', function (params) {
+        var cates = {0: "一级概念", 1: "二级概念", 2: "三级概念", 3: "四级概念", 4: "五级概念", 5: "六级概念", 6: "函数"};
+        let province = params.name;
+        let cate = params.data.category;
+        $("body").on("click", "#delete_submit", function () {
+            $.getJSON("/delete_aNode", {
+                node: province,
+            })
+            refresh()
+            // myChart.setOption(option, true);
+            $('#deleModal').modal('hide')
+        })
+        $.getJSON('/get_all_profile', {
+            character_name: province,
+            cate: cate,
+        }, function (json) {
+            $("#profile").html(json[0]);
+            $("#picture").css("display", "block");
+            $("#picture").attr("src", "data:image/jpg;base64," + json[1]);
+            $("#firstname").attr("value", province)
+            $("#lastname").attr("value", cates[cate])
+        });
+        layer.config({
+            extend: '../css/style.css',         //加载您的扩展样式//默认皮肤配置文件是放在css/modal/layer/myskin/style.css
+            skin: 'layer-ext-yourskin'          //一旦设定，所有layer弹层风格都采用此主题。
+        });
+        let mylay = layer.open({
+            title: province,
+            type: 1,
+            area: ["400px", "650px"],
+            closeBtn: 10,               //显示关闭按钮
+            maxmin: true,
+            shadeClose: true,           // 点击遮罩是否关闭
+            shade: 0.1,                 // 遮罩透明度
+            skin: 'layer-ext-moon',
+            offset: "r",                //从右边弹出
+            content: $("#bound").html()
+        });
+    });
+
+    let node = $("#firstname").val();
+    let cate = $("#lastname").val();
+
+    $(document).on("blur", "#firstname", function () {
+        node = $(this).val();
+
+    })
+    $(document).on("blur", "#lastname", function () {
+        cate = $(this).val();
+        node = $("#firstname").val();
+    })
+    $("body").on("click", ".fxh", function () {
+        change_Node(node, cate);
+    })
+
+    // $("#delete_submit").click(function () {
+    //
+    // })
+
+    function change_Node(node, cate) {
+        console.log("i come " + node + cate)
+        $.getJSON('/change_node', {
+                node: node,
+                cate: cate,
+            }
+            , function (json) {
+                option.series[0].nodes = json.data.map(function (node, idx) {
+                    node.id = idx;
+                    return node;
+                });
+                option.series[0].links = json.links;
+                // 使用刚指定的配置项和数据显示图表
+                // myChart.setOption(option, true);
+            });
+    }
+
+</script>
+
+<script type="text/javascript">
+    // 搜索查询按钮触发事件
+    $(function () {
+        $("#search-button").click(function () {
+            search_keyword = $('#search-keyword').val();
+            $.getJSON('/search_a_node', {
+                    name: search_keyword,
+                }
+                , function (json) {
+                    // option.series[0].nodes[json.id].symbol = 'round_rect';
+                    option.series[0].nodes[json.id].x = 800;
+                    option.series[0].nodes[json.id].y = 400;
+                    option.series[0].nodes[json.id].fixed = true;
+                    option.series[0].nodes[json.id].symbolSize = 50;
+                    option.series[0].nodes[json.id].colors = '#87cefa';
+
+                    // data[index].symbol = 'circle'
+                    myChart.setOption(option, true);
+                });
+            console.log(search_keyword)
+            $('#search-keyword').val('');
+
+
+        })
+    })
+
+
+    function delete_Node() {
+        $('#deleModal').modal('show');
+        // parent.layer.close(mylay);
+    }
+
+    $('#refresh').click(function () {
+        refresh()
+        // myChart.setOption(option, true)
+    })
+</script>
+
 </html>

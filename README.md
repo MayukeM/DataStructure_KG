@@ -1,7 +1,8 @@
 # DataStructure_KG
 数据结构知识图谱
 项目来源https://github.com/chizhu/KGQA_HLM
-##文件树：
+
+## 文件树：
 1)  app.py是整个系统的主入口
 2)  templates文件夹是HTML的页面
      |-first.html 欢迎界面
@@ -21,6 +22,7 @@
 7)  spider文件夹是爬虫模块
      |- get_*.py 是之前爬取的代码，已经产生好images和json 可以不用再执行
      |-show_profile.py 是调用爬虫信息和图谱展示在前端的代码
+8)  test文件夹为测试代码
      
 ## 部署步骤：
 * 0.安装所需的库 执行pip install -r requirement.txt
@@ -37,16 +39,27 @@
     - get_json_data() 将raw_data/relation.csv的数据转换成data link的json格式保存到（static/data.json)以便前端展示
 2. 执行creat_graph.py创建图数据库,数据来自raw_data/relation.csv
 4. 执行get_ds.py爬虫得到百度百科词条和图片（spider/json/data.json)(spider/images)
+5. 执行get_dict.py得到自定义词典，在进行分词的时候，自定义词典里的词不会被分开 
 > 上面步骤只需运行一次
-5. 运行app.py或整个项目，注意清除浏览器缓存，图谱显示才能更新
+
+运行app.py或整个项目，注意清除浏览器缓存，图谱显示才能更新
 
 ## 一些点
 - 路径问题
 ```python
 import os
 getpath = os.path.abspath(os.path.dirname(__file__)) # 获取本层目录
+getpath = os.path.abspath(os.path.dirname(os.path.dirname(__file__))) # 获取上层目录
 getpath = ('/').join(getpath.split('\\'))
 ```
 - python版本
-python3.6或python3.7 太高容易出问题
+python3.6或python3.7 版本太高容易出问题
 
+- 本地项目更新到github
+```
+git add . 所有变动文件，工作区->待提交区
+git cmmint -m "注释"
+git pull origin master 从远程仓库拉去代码到本地仓库以防止产生冲突
+git push origin master 从本地仓库推送代码到远程服务器
+git push -f origin master 强推
+```

@@ -18,18 +18,19 @@ option = {
             fontWeight: "lighter",                // 定义更细的字符
         }
     },
-    animationDurationUpdate: 1500,              // 数据更新动画的时长。[ default: 300 ]
-    animationEasingUpdate: 'quinticInOut',      // 数据更新动画的缓动效果。[ default: cubicOut ]
+    animationDurationUpdate: false,              // 数据更新动画的时长。[ default: 300 ]
+    animationEasingUpdate: false,      // 数据更新动画的缓动效果。[ default: cubicOut ] quinticInOut
     legend: {                              //图表控件
         x: "center",
         show: true, //默认显示
-        data: ["一级概念", "二级概念", "三级概念", "四级概念", "五级概念", "函数", "重要程度"]
+        data: ["一级概念", "二级概念", "三级概念", "四级概念", "五级概念", "六级概念", "函数"]
     },
     series: [
         {
             type: 'graph',                          // 关系图
             layout: 'force',                        // 布局
-            symbolSize: 50,
+            legendHoverLink : true,                 //是否启用图例 hover(悬停) 时的联动高亮。
+            symbolSize: 30,                         //节点大小
             edgeSymbol: ['circle', 'arrow'],
             edgeSymbolSize: [4, 4],
             edgeLabel: {
@@ -42,8 +43,10 @@ option = {
                 }
             },
             force: {
-                repulsion: 2500,        // [ default: 50 ]节点之间的斥力因子(关系对象之间的距离)。支持设置成数组表达斥力的范围，此时不同大小的值会线性映射到不同的斥力。值越大则斥力越大
-                edgeLength: [10, 100]   // [ default: 30 ]边的两个节点之间的距离(关系对象连接线两端对象的距离,会根据关系对象值得大小来判断距离的大小)，
+                repulsion: 800,        // [ default: 50 ]节点之间的斥力因子(关系对象之间的距离)。支持设置成数组表达斥力的范围，此时不同大小的值会线性映射到不同的斥力。值越大则斥力越大
+                edgeLength: [10, 100],   // [ default: 30 ]边的两个节点之间的距离(关系对象连接线两端对象的距离,会根据关系对象值得大小来判断距离的大小)，
+                layoutAnimation: true,  //因为力引导布局会在多次迭代后才会稳定，这个参数决定是否显示布局的迭代动画，在浏览器端节点数据较多（>100）的时候不建议关闭，布局过程会造成浏览器假死。
+                // gravity:0.1
             },
             focusNodeAdjacency: true,   // 是否在鼠标移到节点上的时候突出显示节点以及节点的边和邻接节点。[ default: false ]
             draggable: true,
@@ -64,25 +67,22 @@ option = {
             }, {
                 name: '五级概念',
             }, {
+                name: '六级概念',
+            }, {
                 name: '函数',
-            },
-                {
-                    name: '重要程度',
-                }
+            }
             ],
             label: {        // 关系对象上的标签
                 normal: {
                     show: true,             // 显示标签
-                    //position: "inside",     // 标签位置
+                    position: "right",     // 标签位置
                     textStyle: {              // 文本样式
-                        fontSize: 12
+                        fontSize: 20
                     },
                 }
             },
-            force: {
-                repulsion: 1000
-            },
             tooltip: {              // 提示框配置
+                trigger:'item',
                 formatter: function (node) { // 区分连线和节点，节点上额外显示其他数字
                     if (!node.value) {
                         return node.data.name;
@@ -95,7 +95,8 @@ option = {
                 normal: {
                     opacity: 0.9,
                     width: 1,
-                    curveness: 0.3
+                    curveness: 0,  // 边的曲度
+                    color:"target"
                 }
             },
             // progressiveThreshold: 700,
@@ -112,9 +113,7 @@ function base64ToBlob(code) {
     let contentType = parts[0].split(':')[1];
     let raw = window.atob(parts[1]);
     let rawLength = raw.length;
-
     let uInt8Array = new Uint8Array(rawLength);
-
     for (let i = 0; i < rawLength; ++i) {
         uInt8Array[i] = raw.charCodeAt(i);
     }

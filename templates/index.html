@@ -1,124 +1,159 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="renderer" content="webkit">
-  		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title>数据结构知识图谱</title>
-		<link rel="stylesheet" type="text/css" href="../static/admin/layui/css/layui.css"/>
-		<link rel="stylesheet" type="text/css" href="../static/admin/css/admin.css"/>
-	</head>
-	<body>
-		<div class="main-layout" id='main-layout'>
-			<!--侧边栏-->
-			<div class="main-layout-side">
-				<div class="m-logo">
-					数据结构知识图谱
-				</div>
-				<ul class="layui-nav layui-nav-tree" lay-filter="leftNav">
-				  <li class="layui-nav-item layui-nav-itemed">
-				    <a href="javascript:;"><i class="iconfont">&#xe607;</i>知识可视化</a>
-				    <dl class="layui-nav-child">
-				      <dd><a href="javascript:;" data-url="search.html" data-id='1' data-text="检索图谱关系"><span class="l-line"></span>检索图谱关系</a></dd>
-				      <dd><a href="javascript:;" data-url="search_path.html" data-id='11' data-text="最短路径查询"><span class="l-line"></span>最短路径查询</a></dd>
-				      <dd><a href="javascript:;" data-url="all_relation.html" data-id='2' data-text="知识图谱全貌"><span class="l-line"></span>知识图谱全貌</a></dd>
-				    </dl>
-				  </li>
-				  <li class="layui-nav-item">
-				    <a href="javascript:;"><i class="iconfont">&#xe608;</i>问答系统</a>
-				    <dl class="layui-nav-child">
-				      <dd><a href="javascript:;" data-url="KGQA.html" data-id='3' data-text="智能问答系统"><span class="l-line"></span>智能问答系统</a></dd>
-				    </dl>
-				  </li>
-				  <li class="layui-nav-item">
-				    <a href="javascript:;"><i class="iconfont">&#xe604;</i>小结图谱</a>
-					<dl class="layui-nav-child">
-					  <dd><a href="javascript:;" data-url="KGQA.html" data-id='4' data-text="线性表"><span class="l-line"></span>线性表</a></dd>
-					  <dd><a href="javascript:;" data-url="KGQA.html" data-id='5' data-text="栈和队列"><span class="l-line"></span>栈和队列</a></dd>
-					  <dd><a href="javascript:;" data-url="KGQA.html" data-id='6' data-text="串"><span class="l-line"></span>串</a></dd>
-					  <dd><a href="javascript:;" data-url="KGQA.html" data-id='7' data-text="数组和广义表"><span class="l-line"></span>数组和广义表</a></dd>
-					  <dd><a href="javascript:;" data-url="graph.html" data-id='8' data-text="图"><span class="l-line"></span>图</a></dd>
-					  <dd><a href="javascript:;" data-url="KGQA.html" data-id='9' data-text="查找"><span class="l-line"></span>查找</a></dd>
-					  <dd><a href="javascript:;" data-url="danye-list.html" data-id='10' data-text="排序"><span class="l-line"></span>排序</a></dd>
-					</dl>
-				  </li>
-				   <li class="layui-nav-item">
-				    <a href="javascript:;"><i class="iconfont">&#xe60c;</i>数据管理</a>
-				  </li>
-				   <li class="layui-nav-item">
-				    <a href="javascript:;"><i class="iconfont">&#xe60a;</i>分词工具</a>
-				  </li>
-				  <li class="layui-nav-item">
-				    <a href="javascript:;" data-url="email.html" data-id='4' data-text="邮件系统"><i class="iconfont">&#xe603;</i>邮件系统</a>
-				  </li>
-				  <li class="layui-nav-item">
-				    <a href="javascript:;"><i class="iconfont">&#xe60d;</i>图谱编辑</a>
-				  </li>
-				  <li class="layui-nav-item">
-				    <a href="javascript:;"><i class="iconfont">&#xe600;</i>更多功能</a>
-				  </li>
-				  <li class="layui-nav-item">
-				    <a href="javascript:;" data-url="admin-info.html" data-id='5' data-text="个人信息"><i class="iconfont">&#xe606;</i>个人信息</a>
-				  </li>
-				  <li class="layui-nav-item">
-				  	<a href="javascript:;" data-url="system.html" data-id='6' data-text="系统设置"><i class="iconfont">&#xe60b;</i>系统设置</a>
-				  </li>
-				</ul>
-			</div>
-			<!--右侧内容-->
-			<div class="main-layout-container">
-				<!--头部-->
-				<div class="main-layout-header">
-					<div class="menu-btn" id="hideBtn">
-						<a href="javascript:;">
-							<span class="iconfont">&#xe60e;</span>
-						</a>
-					</div>
-					<!-- 添加代码 毕设标题 -->
-					<b style="position: absolute; top: 20px;">
-					<a href="javascript:;" data-url="admin-info.html" data-id='6' data-text="个人信息">基于neo4j的数据结构知识图谱的设计与实现</a>
-					</b>
-					
-					<ul class="layui-nav" lay-filter="rightNav">
-					
-					  <li class="layui-nav-item"><a href="javascript:;" data-url="email.html" data-id='4' data-text="邮件系统"><i class="iconfont">&#xe603;</i></a></li>
-					  <li class="layui-nav-item">
-					    <a href="javascript:;" data-url="admin-info.html" data-id='5' data-text="个人信息">超级管理员</a>
-					  </li>
-					  <li class="layui-nav-item"><a href="javascript:;">退出</a></li>
-					</ul>
-				</div>
-				<!--主体内容-->
-				<div class="main-layout-body">
-					<!--tab 切换-->
-					<div class="layui-tab layui-tab-brief main-layout-tab" lay-filter="tab" lay-allowClose="true">
-					  <ul class="layui-tab-title">
-					    <li class="layui-this welcome">数据统计</li>
-					  </ul>
-					  <div class="layui-tab-content">
-					    <div class="layui-tab-item layui-show" style="background: #f5f5f5;">
-					    	<!--1-->
-					    	<iframe src="welcome.html" width="100%" height="100%" name="iframe" scrolling="auto" class="iframe" framborder="0"></iframe>
-					    	<!--1end-->
-					    </div>
-					  </div>
-					</div>
-				</div>
-			</div>
-			<!--遮罩-->
-			<div class="main-mask">
-				
-			</div>
-		</div>
-		<script type="text/javascript">
-			var scope={
-				link:'./welcome.html'
-			}
-		</script>
-		<script src="../static/admin/layui/layui.js" type="text/javascript" charset="utf-8"></script>
-		<script src="../static/admin/js/common.js" type="text/javascript" charset="utf-8"></script>
-		<script src="../static/admin/js/main.js" type="text/javascript" charset="utf-8"></script>
-		
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>数据结构知识图谱</title>
+    <link rel="stylesheet" type="text/css" href="../static/admin/layui/css/layui.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/admin/css/admin.css"/>
+    <script src="../static/js/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+<div class="main-layout" id='main-layout'>
+    <!--侧边栏-->
+    <div class="main-layout-side">
+        <div class="m-logo">
+            数据结构知识图谱
+        </div>
+        <ul class="layui-nav layui-nav-tree" lay-filter="leftNav">
+            <li class="layui-nav-item layui-nav-itemed">
+                <a href="javascript:;"><i class="iconfont">&#xe607;</i>知识可视化</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="javascript:;" data-url="search.html" data-id='1' data-text="检索图谱关系"><span
+                            class="l-line"></span>检索图谱关系</a></dd>
+                    <dd><a href="javascript:;" data-url="search_path.html" data-id='11' data-text="最短路径查询"><span
+                            class="l-line"></span>最短路径查询</a></dd>
+                    <dd><a href="javascript:;" data-url="all_relation.html" data-id='2' data-text="知识图谱全貌"><span
+                            class="l-line"></span>知识图谱全貌</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;"><i class="iconfont">&#xe608;</i>问答系统</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="javascript:;" data-url="KGQA.html" data-id='3' data-text="智能问答系统"><span
+                            class="l-line"></span>智能问答系统</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;"><i class="iconfont">&#xe604;</i>图谱小结</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="javascript:;" data-url="linear.html" data-id='4' data-text="线性表"><span
+                            class="l-line"></span>线性表</a></dd>
+<!--                    <dd><a href="javascript:;" data-url="stack.html" data-id='5' data-text="栈"><span-->
+<!--                            class="l-line"></span>栈</a></dd>-->
+<!--                    <dd><a href="javascript:;" data-url="queue.html" data-id='51' data-text="队列"><span-->
+<!--                            class="l-line"></span>队列</a></dd>-->
+<!--                    <dd><a href="javascript:;" data-url="string.html" data-id='6' data-text="串"><span-->
+<!--                            class="l-line"></span>串</a></dd>-->
+<!--                    <dd><a href="javascript:;" data-url="array.html" data-id='7' data-text="数组"><span-->
+<!--                            class="l-line"></span>数组</a></dd>-->
+<!--                    <dd><a href="javascript:;" data-url="lists.html" data-id='71' data-text="广义表"><span-->
+<!--                            class="l-line"></span>广义表</a></dd>-->
+                    <dd><a href="javascript:;" data-url="tree.html" data-id='81' data-text="树"><span
+                            class="l-line"></span>树</a></dd>
+                    <dd><a href="javascript:;" data-url="graph.html" data-id='8' data-text="图"><span
+                            class="l-line"></span>图</a></dd>
+                    <dd><a href="javascript:;" data-url="searching.html" data-id='9' data-text="查找"><span
+                            class="l-line"></span>查找</a></dd>
+                    <dd><a href="javascript:;" data-url="sorting.html" data-id='10' data-text="排序"><span
+                            class="l-line"></span>排序</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;"><i class="iconfont">&#xe60c;</i>数据管理</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="javascript:;" data-url="data_show.html" data-id='31' data-text="关系类别文件"><span
+                            class="l-line"></span>关系类别文件</a></dd>
+                    <dd><a href="javascript:;" data-url="relation.html" data-id='33' data-text="关系文件"><span
+                            class="l-line"></span>关系文件</a></dd>
+                    <dd><a href="javascript:;" data-url="cate.html" data-id='32' data-text="类别文件"><span
+                            class="l-line"></span>类别文件</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;"><i class="iconfont">&#xe60a;</i>分词工具</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;" data-url="email.html" data-id='4' data-text="邮件系统"><i
+                        class="iconfont">&#xe603;</i>文件上传</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;"><i class="iconfont">&#xe60d;</i>图谱编辑</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;"><i class="iconfont">&#xe600;</i>更多功能</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;" data-url="admin-info.html" data-id='5' data-text="个人信息"><i class="iconfont">&#xe606;</i>个人信息</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;" data-url="system.html" data-id='6' data-text="系统设置"><i
+                        class="iconfont">&#xe60b;</i>系统设置</a>
+            </li>
+        </ul>
+    </div>
+    <!--右侧内容-->
+    <div class="main-layout-container">
+        <!--头部-->
+        <div class="main-layout-header">
+            <div class="menu-btn" id="hideBtn">
+                <a href="javascript:;">
+                    <span class="iconfont">&#xe60e;</span>
+                </a>
+            </div>
+            <!-- 添加代码 毕设标题 -->
+            <b style="position: absolute; top: 20px;">
+                <a href="javascript:;" data-url="admin-info.html" data-id='6'
+                   data-text="个人信息">基于neo4j的数据结构知识图谱的设计与实现</a>
+            </b>
+
+            <ul class="layui-nav" lay-filter="rightNav">
+
+                <li class="layui-nav-item"><a href="javascript:;" data-url="email.html" data-id='4' data-text="邮件系统"><i
+                        class="iconfont">&#xe603;</i></a></li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;" data-url="admin-info.html" data-id='5' data-text="个人信息">超级管理员</a>
+                </li>
+                <li class="layui-nav-item"><a href="javascript:;" data-url="welcome.html" data-id='20'
+                                              data-text="首页">退出</a></li>
+            </ul>
+        </div>
+        <!--主体内容-->
+        <div class="main-layout-body">
+            <!--tab 切换-->
+            <div class="layui-tab layui-tab-brief main-layout-tab" lay-filter="tab" lay-allowClose="true">
+                <ul class="layui-tab-title">
+                    <li class="layui-this welcome">数据统计</li>
+                </ul>
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show" style="background: #f5f5f5;">
+                        <!--1-->
+                        <iframe src="welcome.html" width="100%" height="100%" name="iframe" scrolling="auto"
+                                class="iframe" framborder="0"></iframe>
+                        <!--1end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--遮罩-->
+    <div class="main-mask">
+
+    </div>
+</div>
+<script type="text/javascript">
+    var scope = {
+        link: './welcome.html'
+    }
+
+
+</script>
+<script src="../static/admin/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+<script src="../static/admin/js/common.js" type="text/javascript" charset="utf-8"></script>
+<script src="../static/admin/js/main.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
 </html>

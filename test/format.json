@@ -1,0 +1,100 @@
+
+
+{
+  "data": {
+    "length": 2,
+    "rels": [
+      {
+        "id": "372",
+        "type": "relationship",
+        "label": "包括",
+        "properties": {
+          "relation": "包括"
+        },
+        "start": {
+          "id": "1427",
+          "labels": [
+            "Concept"
+          ],
+          "properties": {
+            "cate": "二级概念",
+            "name": "二叉树"
+          }
+        },
+        "end": {
+          "id": "1253",
+          "labels": [
+            "Concept"
+          ],
+          "properties": {
+            "cate": "四级概念",
+            "name": "线索二叉树"
+          }
+        }
+      },
+      {
+        "id": "409",
+        "type": "relationship",
+        "label": "包括",
+        "properties": {
+          "relation": "包括"
+        },
+        "start": {
+          "id": "1253",
+          "labels": [
+            "Concept"
+          ],
+          "properties": {
+            "cate": "四级概念",
+            "name": "线索二叉树"
+          }
+        },
+        "end": {
+          "id": "1271",
+          "labels": [
+            "Concept"
+          ],
+          "properties": {
+            "cate": "五级概念",
+            "name": "后序线索二叉树"
+          }
+        }
+      }
+    ],
+    "nodes": [
+      {
+        "type": "node",
+        "id": "1427",
+        "labels": [
+          "Concept"
+        ],
+        "properties": {
+          "cate": "二级概念",
+          "name": "二叉树"
+        }
+      },
+      {
+        "type": "node",
+        "id": "1253",
+        "labels": [
+          "Concept"
+        ],
+        "properties": {
+          "cate": "四级概念",
+          "name": "线索二叉树"
+        }
+      },
+      {
+        "type": "node",
+        "id": "1271",
+        "labels": [
+          "Concept"
+        ],
+        "properties": {
+          "cate": "五级概念",
+          "name": "后序线索二叉树"
+        }
+      }
+    ]
+  }
+}

@@ -20,65 +20,156 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a290eb4-2ee2-4552-8d01-3e0707a44bb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kg_data/cate.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kg_data/data_processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neo_db/update.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raw_data/new_detail.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raw_data/relation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/get_ds.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/串.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/删除.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/字符数组.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/存储结构.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/广义表.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/指针数组.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/排序.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/插入.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/散列表.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/数据结构.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/数组.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/更新.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/栈.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/树.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/树形结构.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/检索.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/线性结构.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/线性表.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/逻辑结构.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/链表.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/集合.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/images/顺序存储.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/head_portrait_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/head_portrait_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/head_portrait_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/head_portrait_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/search_path.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/dir_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/get_json_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/relation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/relation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KGQA/get_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KGQA/ltp.py.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KGQA/my_dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kg_data/data_processing.py.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kg_data/data_show.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_db/connect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_db/data_show.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neo_db/name_dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neo_db/name_dict.txt.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neo_db/query_graph.py.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neo_db/update.py.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raw_data/now.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raw_data/relation.csv.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/get_ds.py.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/AOE网.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/B+树.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/B树.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/Dijkstra算法.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/Floyd算法.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/KMP算法.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/Kruskal算法.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/Prim算法.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/中序遍历.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/二叉排序树.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/二叉树.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/交换排序.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/先序遍历.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/入度.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/关键路径.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/冒泡排序.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/出度.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/单链表.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/双链表.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/可行性.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/后序遍历.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/哈夫曼树.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/哈夫曼编码.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/回路.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/基数排序.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/堆排序.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/多重图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/子图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/完全二叉树.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/希尔排序.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/平方取中法.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/平衡二叉树.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/并查集.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/广度优先遍历.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/强连通分量.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/强连通图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/归并排序.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/循环队列.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/快速排序.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/折半查找.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/拓扑排序.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/插入排序.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/散列函数.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/数值数组.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/时间复杂度.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/最小生成树.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/最短路径.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/有向树.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/权.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/查找.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/深度优先遍历.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/满二叉树.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/直接插入排序.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/稀疏矩阵.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/空间复杂度.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/简单图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/简单路径.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/简单选择排序.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/线索二叉树.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/网.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/路径.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/输入.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/连通.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/连通分量.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/连通图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/选择排序.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/邻接多重表.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/队.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/静态链表.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/images/顺序表.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/json/data.json.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/json/data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/show_profile.py.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/fonts/bootstrap-table.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/fonts/bootstrap-table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/fonts/bootstrap-table.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/fonts/bootstrap-table.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/toastr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/data.json.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/option.js.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/referer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/referer.php.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/search.js.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/toastr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/all_relation.html.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/data_show/cate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/data_show/data_show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/data_show/relation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/part/array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/part/linear.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/part/lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/part/queue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/part/searching.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/part/sorting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/part/stack.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/part/string.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/part/tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/part/tree.html.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/search.html.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/welcome.html.baiduyun.uploading.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Cut_word/cutwords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Cut_word/jieba_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Cut_word/my_jieba_dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Cut_word/word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/HLM_demo01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ds_dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/format.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/切片.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KGQA/ltp.py" beforeDir="false" afterPath="$PROJECT_DIR$/KGQA/ltp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kg_data/detail.csv" beforeDir="false" afterPath="$PROJECT_DIR$/raw_data/detail.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kg_data/cate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/kg_data/cate.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kg_data/data_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/kg_data/data_processing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kg_data/relation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/kg_data/relation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neo_db/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/neo_db/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neo_db/creat_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/neo_db/creat_graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neo_db/query_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/neo_db/query_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raw_data/relation.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/get_character_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/get_character_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/get_hlm_character.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/图.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spider/images/图.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/完全图.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spider/images/完全图.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/无向图.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spider/images/无向图.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/images/有向图.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spider/images/有向图.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neo_db/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/neo_db/update.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw_data/relation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/raw_data/relation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/get_ds.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/get_ds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider/json/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/spider/json/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider/show_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/show_profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/nifty.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/nifty.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/option.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/option.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/search.js" afterDir="false" />
@@ -86,7 +177,13 @@
       <change beforePath="$PROJECT_DIR$/templates/all_relation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/all_relation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/first.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/part/graph.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/part/graph.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/search_path.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/search_path.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dir_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/dir_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/get_json_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/get_json_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +193,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -122,24 +219,48 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\static\images" />
-      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\templates" />
-      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\kg_data" />
-      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\static" />
-      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\spider\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\templates\data_show" />
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\static\js" />
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\test\Cut_word" />
       <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\raw_data" />
       <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\test" />
-      <recent name="D:\学习\毕设-知识图谱\08.开源项目\MengHonglou\KGQA_HLM" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\static\js" />
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\static\css" />
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\static\fonts" />
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\templates\data_show" />
+      <recent name="D:\学习\毕设-知识图谱\12.我的项目\DataStructureKG_UIupdate\DataStructure_KG\templates\part" />
     </key>
   </component>
   <component name="RunManager" selected="Python.DataStructure_KG">
+    <configuration name="切片" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KGQA_DataStructure_02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/切片.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="DataStructure_KG" type="PythonConfigurationType" factoryName="Python">
       <module name="KGQA_DataStructure_02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,7 +305,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dir_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="get_dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KGQA_DataStructure_02" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,12 +313,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KGQA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/dir_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KGQA/get_dict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,7 +349,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KGQA_DataStructure_02" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,43 +371,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="update" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="KGQA_DataStructure_02" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neo_db" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neo_db/update.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.DataStructure_KG" />
+      <item itemvalue="Python.切片" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.creat_graph" />
-      <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.dir_test" />
+      <item itemvalue="Python.get_dict" />
       <item itemvalue="Python.query_graph" />
-      <item itemvalue="Python.update" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.update" />
-        <item itemvalue="Python.dir_test" />
         <item itemvalue="Python.query_graph" />
-        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.creat_graph" />
+        <item itemvalue="Python.get_dict" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.切片" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +423,31 @@
       <workItem from="1621565572506" duration="17433000" />
       <workItem from="1621588714340" duration="30360000" />
       <workItem from="1621687036395" duration="22461000" />
-      <workItem from="1621735539384" duration="1521000" />
+      <workItem from="1621735539384" duration="6744000" />
+      <workItem from="1621833202202" duration="22957000" />
+      <workItem from="1622010925884" duration="18369000" />
+      <workItem from="1622078416196" duration="8782000" />
+      <workItem from="1622271924343" duration="8275000" />
+      <workItem from="1622306589043" duration="8352000" />
+      <workItem from="1622419265783" duration="7920000" />
+      <workItem from="1622689992032" duration="19299000" />
+      <workItem from="1622878419931" duration="4957000" />
+      <workItem from="1622883916144" duration="68904000" />
+      <workItem from="1623115042305" duration="12167000" />
+      <workItem from="1623153419732" duration="11579000" />
+      <workItem from="1623310385900" duration="2367000" />
+      <workItem from="1623312967762" duration="18327000" />
+      <workItem from="1623396968321" duration="423000" />
+      <workItem from="1623397609276" duration="5036000" />
+      <workItem from="1623546794909" duration="4524000" />
+      <workItem from="1623563586254" duration="6861000" />
+      <workItem from="1623578031230" duration="19634000" />
+      <workItem from="1623632394380" duration="10287000" />
+      <workItem from="1623658143513" duration="8529000" />
+      <workItem from="1623735570266" duration="29350000" />
+      <workItem from="1623854473554" duration="6643000" />
+      <workItem from="1623895551634" duration="1064000" />
+      <workItem from="1624005235446" duration="1626000" />
     </task>
     <servers />
   </component>
@@ -398,116 +521,170 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="111" key="#query_graph/0.0.1920.1040@0.0.1920.1040" timestamp="1619838619137" />
-    <state width="1493" height="215" key="GridCell.Tab.0.bottom" timestamp="1621711093828">
+    <state width="1493" height="124" key="GridCell.Tab.0.bottom" timestamp="1623903252501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="298" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.-200.823.1423@0.0.1536.824" timestamp="1621669363118" />
+    <state width="1663" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.-159.1707.920@-2560.-159.1707.920" timestamp="1623641718080" />
+    <state width="1493" height="216" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.-159.1707.920@0.0.1536.824" timestamp="1623375980583" />
     <state width="2005" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824/-259.1080.2048.1112@-259.1080.2048.1112" timestamp="1621692075602" />
-    <state width="1493" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621711093828" />
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824/-259.1080.2048.1112@0.0.1536.824" timestamp="1621742644875" />
+    <state width="1663" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824/-333.1080.1707.920@-333.1080.1707.920" timestamp="1621834122868" />
+    <state width="1493" height="142" key="GridCell.Tab.0.bottom/0.0.1536.824/-333.1080.1707.920@0.0.1536.824" timestamp="1622378471318" />
+    <state width="1493" height="124" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623903252501" />
     <state width="1877" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619869767279" />
     <state width="1235" height="183" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1619828255718" />
-    <state width="1493" height="215" key="GridCell.Tab.0.center" timestamp="1621711093828">
+    <state width="1493" height="124" key="GridCell.Tab.0.center" timestamp="1623903252501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="298" key="GridCell.Tab.0.center/0.0.1536.824/-1440.-200.823.1423@0.0.1536.824" timestamp="1621669363118" />
+    <state width="1663" height="246" key="GridCell.Tab.0.center/0.0.1536.824/-2560.-159.1707.920@-2560.-159.1707.920" timestamp="1623641718080" />
+    <state width="1493" height="216" key="GridCell.Tab.0.center/0.0.1536.824/-2560.-159.1707.920@0.0.1536.824" timestamp="1623375980583" />
     <state width="2005" height="215" key="GridCell.Tab.0.center/0.0.1536.824/-259.1080.2048.1112@-259.1080.2048.1112" timestamp="1621692075601" />
-    <state width="1493" height="215" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621711093828" />
+    <state width="1493" height="215" key="GridCell.Tab.0.center/0.0.1536.824/-259.1080.2048.1112@0.0.1536.824" timestamp="1621742644874" />
+    <state width="1663" height="215" key="GridCell.Tab.0.center/0.0.1536.824/-333.1080.1707.920@-333.1080.1707.920" timestamp="1621834122867" />
+    <state width="1493" height="142" key="GridCell.Tab.0.center/0.0.1536.824/-333.1080.1707.920@0.0.1536.824" timestamp="1622378471318" />
+    <state width="1493" height="124" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1623903252501" />
     <state width="1877" height="187" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619869767278" />
     <state width="1235" height="183" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1619828255718" />
-    <state width="1493" height="215" key="GridCell.Tab.0.left" timestamp="1621711093827">
+    <state width="1493" height="124" key="GridCell.Tab.0.left" timestamp="1623903252501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="298" key="GridCell.Tab.0.left/0.0.1536.824/-1440.-200.823.1423@0.0.1536.824" timestamp="1621669363118" />
+    <state width="1663" height="246" key="GridCell.Tab.0.left/0.0.1536.824/-2560.-159.1707.920@-2560.-159.1707.920" timestamp="1623641718080" />
+    <state width="1493" height="216" key="GridCell.Tab.0.left/0.0.1536.824/-2560.-159.1707.920@0.0.1536.824" timestamp="1623375980583" />
     <state width="2005" height="215" key="GridCell.Tab.0.left/0.0.1536.824/-259.1080.2048.1112@-259.1080.2048.1112" timestamp="1621692075601" />
-    <state width="1493" height="215" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621711093827" />
+    <state width="1493" height="215" key="GridCell.Tab.0.left/0.0.1536.824/-259.1080.2048.1112@0.0.1536.824" timestamp="1621742644873" />
+    <state width="1663" height="215" key="GridCell.Tab.0.left/0.0.1536.824/-333.1080.1707.920@-333.1080.1707.920" timestamp="1621834122867" />
+    <state width="1493" height="142" key="GridCell.Tab.0.left/0.0.1536.824/-333.1080.1707.920@0.0.1536.824" timestamp="1622378471318" />
+    <state width="1493" height="124" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1623903252501" />
     <state width="1877" height="187" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619869767278" />
     <state width="1235" height="183" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1619828255718" />
-    <state width="1493" height="215" key="GridCell.Tab.0.right" timestamp="1621711093828">
+    <state width="1493" height="124" key="GridCell.Tab.0.right" timestamp="1623903252501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="298" key="GridCell.Tab.0.right/0.0.1536.824/-1440.-200.823.1423@0.0.1536.824" timestamp="1621669363118" />
+    <state width="1663" height="246" key="GridCell.Tab.0.right/0.0.1536.824/-2560.-159.1707.920@-2560.-159.1707.920" timestamp="1623641718080" />
+    <state width="1493" height="216" key="GridCell.Tab.0.right/0.0.1536.824/-2560.-159.1707.920@0.0.1536.824" timestamp="1623375980583" />
     <state width="2005" height="215" key="GridCell.Tab.0.right/0.0.1536.824/-259.1080.2048.1112@-259.1080.2048.1112" timestamp="1621692075602" />
-    <state width="1493" height="215" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621711093828" />
+    <state width="1493" height="215" key="GridCell.Tab.0.right/0.0.1536.824/-259.1080.2048.1112@0.0.1536.824" timestamp="1621742644874" />
+    <state width="1663" height="215" key="GridCell.Tab.0.right/0.0.1536.824/-333.1080.1707.920@-333.1080.1707.920" timestamp="1621834122867" />
+    <state width="1493" height="142" key="GridCell.Tab.0.right/0.0.1536.824/-333.1080.1707.920@0.0.1536.824" timestamp="1622378471318" />
+    <state width="1493" height="124" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1623903252501" />
     <state width="1877" height="187" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619869767278" />
     <state width="1235" height="183" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1619828255718" />
-    <state width="1493" height="298" key="GridCell.Tab.1.bottom" timestamp="1621669363119">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1623781555827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="298" key="GridCell.Tab.1.bottom/0.0.1536.824/-1440.-200.823.1423@0.0.1536.824" timestamp="1621669363119" />
-    <state width="1493" height="298" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621617361328" />
+    <state width="1663" height="88" key="GridCell.Tab.1.bottom/0.0.1536.824/-2560.-159.1707.920@-2560.-159.1707.920" timestamp="1623636640949" />
+    <state width="1493" height="207" key="GridCell.Tab.1.bottom/0.0.1536.824/-333.1080.1707.920@0.0.1536.824" timestamp="1622128342322" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623781555827" />
     <state width="1877" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619866561133" />
-    <state width="1493" height="298" key="GridCell.Tab.1.center" timestamp="1621669363118">
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1623781555827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="298" key="GridCell.Tab.1.center/0.0.1536.824/-1440.-200.823.1423@0.0.1536.824" timestamp="1621669363118" />
-    <state width="1493" height="298" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621617361328" />
+    <state width="1663" height="88" key="GridCell.Tab.1.center/0.0.1536.824/-2560.-159.1707.920@-2560.-159.1707.920" timestamp="1623636640949" />
+    <state width="1493" height="207" key="GridCell.Tab.1.center/0.0.1536.824/-333.1080.1707.920@0.0.1536.824" timestamp="1622128342321" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1623781555827" />
     <state width="1877" height="211" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619866561133" />
-    <state width="1493" height="298" key="GridCell.Tab.1.left" timestamp="1621669363118">
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1623781555827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="298" key="GridCell.Tab.1.left/0.0.1536.824/-1440.-200.823.1423@0.0.1536.824" timestamp="1621669363118" />
-    <state width="1493" height="298" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621617361328" />
+    <state width="1663" height="88" key="GridCell.Tab.1.left/0.0.1536.824/-2560.-159.1707.920@-2560.-159.1707.920" timestamp="1623636640949" />
+    <state width="1493" height="207" key="GridCell.Tab.1.left/0.0.1536.824/-333.1080.1707.920@0.0.1536.824" timestamp="1622128342321" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1623781555827" />
     <state width="1877" height="211" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619866561133" />
-    <state width="1493" height="298" key="GridCell.Tab.1.right" timestamp="1621669363118">
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1623781555827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="298" key="GridCell.Tab.1.right/0.0.1536.824/-1440.-200.823.1423@0.0.1536.824" timestamp="1621669363118" />
-    <state width="1493" height="298" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621617361328" />
+    <state width="1663" height="88" key="GridCell.Tab.1.right/0.0.1536.824/-2560.-159.1707.920@-2560.-159.1707.920" timestamp="1623636640949" />
+    <state width="1493" height="207" key="GridCell.Tab.1.right/0.0.1536.824/-333.1080.1707.920@0.0.1536.824" timestamp="1622128342322" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1623781555827" />
     <state width="1877" height="211" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619866561133" />
-    <state x="866" y="329" key="SettingsEditor" timestamp="1619868691628">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="866" y="329" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619868691628" />
-    <state x="468" y="146" width="600" height="532" key="find.popup" timestamp="1619762432814">
+    <state x="444" y="118" key="RollbackChangesDialog" timestamp="1623597807973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="468" y="146" width="600" height="532" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1619762432814" />
-    <state x="316" y="1276" width="896" height="915" key="search.everywhere.popup" timestamp="1621692808933">
-      <screen x="-259" y="1080" width="2048" height="1112" />
+    <state x="444" y="118" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1623597807973" />
+    <state x="-2375" y="-36" key="SettingsEditor" timestamp="1623376929225">
+      <screen x="-2560" y="-159" width="1707" height="920" />
     </state>
+    <state x="-2295" y="-30" key="SettingsEditor/0.0.1536.824/-2560.-159.1707.920@-2560.-159.1707.920" timestamp="1623314752222" />
+    <state x="-2375" y="-36" key="SettingsEditor/0.0.1536.824/-2560.-159.1707.920@0.0.1536.824" timestamp="1623376929225" />
+    <state x="540" y="114" key="SettingsEditor/0.0.1536.824/-333.1080.1707.920@0.0.1536.824" timestamp="1622037012032" />
+    <state x="866" y="329" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619868691628" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1622880487507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1622880487507" />
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621738758158">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-259.1080.2048.1112@0.0.1536.824" timestamp="1621738758158" />
+    <state x="313" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1622881401153">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="313" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1622881401153" />
+    <state x="187" y="1243" width="667" height="594" key="find.popup" timestamp="1621833946048">
+      <screen x="-333" y="1080" width="1707" height="920" />
+    </state>
+    <state x="187" y="1243" width="667" height="594" key="find.popup/0.0.1536.824/-333.1080.1707.920@-333.1080.1707.920" timestamp="1621833946048" />
+    <state x="468" y="146" width="600" height="532" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1619762432814" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1623587939923">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-2560.-159.1707.920@0.0.1536.824" timestamp="1623377773717" />
     <state x="316" y="1276" width="896" height="915" key="search.everywhere.popup/0.0.1536.824/-259.1080.2048.1112@-259.1080.2048.1112" timestamp="1621692808933" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1621614333931" />
+    <state x="146" y="1242" width="747" height="758" key="search.everywhere.popup/0.0.1536.824/-333.1080.1707.920@-333.1080.1707.920" timestamp="1621834154348" />
+    <state x="431" y="145" width="673" height="679" key="search.everywhere.popup/0.0.1536.824/-333.1080.1707.920@0.0.1536.824" timestamp="1622079650625" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1623587939923" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/spider/get_ds.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/spider/get_character_array.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataStructure_KG$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1621615818507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$data_show__1_.coverage" NAME="data_show (1) Coverage Results" MODIFIED="1622943807087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql_db" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$cutwords.coverage" NAME="cutwords Coverage Results" MODIFIED="1622272218668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Cut_word" />
     <SUITE FILE_PATH="coverage/KGQA_DataStructure_02$query_graph.coverage" NAME="query_graph Coverage Results" MODIFIED="1619866458454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
-    <SUITE FILE_PATH="coverage/DataStructure_KG$update.coverage" NAME="update Coverage Results" MODIFIED="1621709332343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
-    <SUITE FILE_PATH="coverage/KGQA_DataStructure$creat_graph.coverage" NAME="creat_graph Coverage Results" MODIFIED="1619502332405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$update.coverage" NAME="update Coverage Results" MODIFIED="1623584028792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
     <SUITE FILE_PATH="coverage/KGQA_DataStructure$query_graph.coverage" NAME="query_graph Coverage Results" MODIFIED="1619505241752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
-    <SUITE FILE_PATH="coverage/DataStructure_KG$get_hlm_character.coverage" NAME="get_hlm_character Coverage Results" MODIFIED="1620917027462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
-    <SUITE FILE_PATH="coverage/DataStructure_KG$dir_test.coverage" NAME="dir_test Coverage Results" MODIFIED="1621709066142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/DataStructure_KG$DataStructure_KG.coverage" NAME="DataStructure_KG Coverage Results" MODIFIED="1621735618223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$ltp.coverage" NAME="ltp Coverage Results" MODIFIED="1623762671992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KGQA" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$dir_test.coverage" NAME="dir_test Coverage Results" MODIFIED="1621910510449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$word.coverage" NAME="word Coverage Results" MODIFIED="1621868259988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$DataStructure_KG.coverage" NAME="DataStructure_KG Coverage Results" MODIFIED="1624006111476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/DataStructure_KG$get_ds__1_.coverage" NAME="get_ds (1) Coverage Results" MODIFIED="1621518238523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
-    <SUITE FILE_PATH="coverage/DataStructure_KG$data_processing.coverage" NAME="data_processing Coverage Results" MODIFIED="1621575191373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kg_data" />
-    <SUITE FILE_PATH="coverage/DataStructure_KG$get_character_array.coverage" NAME="get_character_array Coverage Results" MODIFIED="1620916332926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
     <SUITE FILE_PATH="coverage/KGQA_HLM$ltp.coverage" NAME="ltp Coverage Results" MODIFIED="1619448739676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KGQA" />
-    <SUITE FILE_PATH="coverage/KGQA_HLM$KGQA_HLM.coverage" NAME="KGQA_HLM Coverage Results" MODIFIED="1619481720392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/KGQA_DataStructure$KGQA_DataStructure.coverage" NAME="KGQA_DataStructure Coverage Results" MODIFIED="1619755851145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/KGQA_DataStructure_02$KGQA_DataStructure_02.coverage" NAME="KGQA_DataStructure_02 Coverage Results" MODIFIED="1620013095807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/DataStructure_KG$test.coverage" NAME="test Coverage Results" MODIFIED="1620997651681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kg_data" />
-    <SUITE FILE_PATH="coverage/DataStructure_KG$query_graph.coverage" NAME="query_graph Coverage Results" MODIFIED="1621616702833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$test.coverage" NAME="test Coverage Results" MODIFIED="1623765755604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$jieba_test__1_.coverage" NAME="jieba_test (1) Coverage Results" MODIFIED="1621909700368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Cut_word" />
     <SUITE FILE_PATH="coverage/DataStructure_KG$get_json_data.coverage" NAME="get_json_data Coverage Results" MODIFIED="1621518076995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kg_data" />
-    <SUITE FILE_PATH="coverage/DataStructure_KG$creat_graph.coverage" NAME="creat_graph Coverage Results" MODIFIED="1621575461556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$creat_graph.coverage" NAME="creat_graph Coverage Results" MODIFIED="1623776732163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
+    <SUITE FILE_PATH="coverage/KGQA_DataStructure$creat_graph.coverage" NAME="creat_graph Coverage Results" MODIFIED="1619502332405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$get_hlm_character.coverage" NAME="get_hlm_character Coverage Results" MODIFIED="1620917027462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$jieba.coverage" NAME="jieba Coverage Results" MODIFIED="1621909562759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Cut_word" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$HLM_demo01.coverage" NAME="HLM_demo01 Coverage Results" MODIFIED="1621834122855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$connect.coverage" NAME="connect Coverage Results" MODIFIED="1622909572491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql_db" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$get_dict.coverage" NAME="get_dict Coverage Results" MODIFIED="1623774098276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KGQA" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$data_processing.coverage" NAME="data_processing Coverage Results" MODIFIED="1623552069064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kg_data" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$get_character_array.coverage" NAME="get_character_array Coverage Results" MODIFIED="1620916332926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/KGQA_HLM$KGQA_HLM.coverage" NAME="KGQA_HLM Coverage Results" MODIFIED="1619481720392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$show_profile.coverage" NAME="show_profile Coverage Results" MODIFIED="1623587981702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/KGQA_DataStructure$KGQA_DataStructure.coverage" NAME="KGQA_DataStructure Coverage Results" MODIFIED="1619755851145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$get_ds.coverage" NAME="get_ds Coverage Results" MODIFIED="1622018088747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/KGQA_DataStructure_02$KGQA_DataStructure_02.coverage" NAME="KGQA_DataStructure_02 Coverage Results" MODIFIED="1620013095807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$.coverage" NAME="切片 Coverage Results" MODIFIED="1623764844917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$data_show.coverage" NAME="data_show Coverage Results" MODIFIED="1622903117425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kg_data" />
+    <SUITE FILE_PATH="coverage/DataStructure_KG$query_graph.coverage" NAME="query_graph Coverage Results" MODIFIED="1623862060103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo_db" />
   </component>
 </project>

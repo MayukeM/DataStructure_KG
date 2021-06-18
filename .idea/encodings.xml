@@ -3,10 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/kg_data/cate.csv" charset="GBK" />
     <file url="file://$PROJECT_DIR$/kg_data/relation.csv" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/raw_data/detail.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/neo_db/name_dict.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/raw_data/detail.csv" charset="GBK" />
     <file url="file://$PROJECT_DIR$/raw_data/relation.csv" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/test/relation.csv" charset="GBK" />
     <file url="file://$PROJECT_DIR$/test/relation.csv" charset="GBK" />
   </component>
 </project>

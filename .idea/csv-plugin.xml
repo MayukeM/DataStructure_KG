@@ -17,7 +17,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\raw_data\detail.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\raw_data\new_detail.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\raw_data\relation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\test\relation.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

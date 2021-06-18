@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>数据管理</title>
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+<body>
+<table class="table table-bordered">
+<!--    <caption>关系表</caption>-->
+    <thead>
+<!--    <tr>-->
+<!--        <th>一级概念</th>-->
+<!--        <th>二级概念</th>-->
+<!--        <th>三级概念</th>-->
+<!--        <th>四级概念</th>-->
+<!--        <th>五级概念</th>-->
+<!--        <th>六级概念</th>-->
+<!--        <th>函数</th>-->
+<!--        <th>修改</th>-->
+<!--        <th>删除</th>-->
+<!--    </tr>-->
+    </thead>
+    <tbody>
+        {% for item in train_data_list %}
+            <tr>
+                <td> {{ item.0 }}</td>
+                <td> {{ item.1 }}</td>
+                <td> {{ item.2 }}</td>
+                <td> {{ item.3 }}</td>
+                <td> {{ item.4 }}</td>
+                <td> {{ item.5 }}</td>
+                <td> {{ item.6 }}</td>
+                <td> <button class="btn btn-info">修改</button></td>
+                <td> <button class="btn btn-danger">删除</button></td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</body>
+
+</html>
